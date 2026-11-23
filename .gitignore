@@ -36,3 +36,6 @@ desktop.ini
 
 # Local Claude settings
 .claude/settings.local.json
+
+# Raw downloaded source texts (re-fetchable; checksums in *_fetch_log.csv)
+data/reference/raw/*/
