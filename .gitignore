@@ -1,0 +1,38 @@
+# Raw page images and HTR exports (large; keep locally, record source/URL in manifests)
+data/transcripts/**/images/
+data/transcripts/**/raw/
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.tif
+data/**/*.tiff
+data/**/*.jp2
+data/**/*.pdf
+data/**/*.zip
+
+# Bulk downloads (EEBO-TCP dumps etc.) - re-fetchable from source
+data/**/bulk/
+
+# Large generated outputs
+results/**/*.rds
+results/**/*.pkl
+results/cache/
+
+# Python / R / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Local Claude settings
+.claude/settings.local.json

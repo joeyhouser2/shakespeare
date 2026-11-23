@@ -1,0 +1,23 @@
+name: devere
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - requests
+  - lxml
+  - beautifulsoup4
+  - pyyaml
+  - jupyterlab
+  - pytest
+  - pip
+  - pip:
+      - faststylometry   # Burrows' Delta in Python
+      - pronouncing      # CMU dict lookups for rhyme/meter features (modern pronunciation; use with care)
+      - prosodic         # metrical scansion
+# R side (optional, for stylo's Delta/Imposters): install R separately, then in R:
+#   install.packages("stylo")
