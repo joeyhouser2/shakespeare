@@ -39,3 +39,9 @@ desktop.ini
 
 # Raw downloaded source texts (re-fetchable; checksums in *_fetch_log.csv)
 data/reference/raw/*/
+
+# External tools (downloaded; see tools/README.md)
+tools/*/
+
+# MorphAdorner token tables (regenerable: src/normalize/morphadorner_layer.py)
+data/reference/text/adorned/

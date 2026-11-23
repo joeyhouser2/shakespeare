@@ -72,3 +72,21 @@ Record in PREREG.md that "insufficient text" is not "ruled out".
 6. Build scoring pipeline; pass the controls before scoring any candidate.
 
 Stage 2 can begin as soon as step 6 works; it needs only the reference corpus.
+
+## Stage 2b: Shakespeare's handwriting vs de Vere's (added 2026-11-22)
+
+**What survives in Shakespeare's hand**
+- **Six signatures:** the Belott–Mountjoy deposition (1612), the Blackfriars Gatehouse conveyance and mortgage (1613), and three on the will (1616).
+- **"Hand D" in *Sir Thomas More*:** British Library Harley MS 7368, ff. 8r–9r, about 147 lines in English secretary hand. The attribution to Shakespeare rests on palaeography (Thompson 1916), spelling, and style (Pollard et al. 1923; Jackson). Most scholars accept it, but it is an inference, not a documented fact.
+- The BL images are on Shakespeare Documented (Folger) under a Public Domain Mark.
+
+**What survives in de Vere's hand:** about 74 letters and memoranda entirely in his own hand (Nelson 2003, pp. 487–9). Almost all are in a clear **italic** hand.
+
+**Why a letterform comparison won't work:** Hand D is secretary script; de Vere wrote italic. These are different writing systems, taught separately, with different letter shapes. Comparing them is like comparing print with cursive: neither likeness nor difference says much about who wrote them. CLAUDE.md also rules out automated handwriting judgments. Any hand comparison goes to a palaeographer, who would need an italic sample by Shakespeare (none exists) or a secretary sample by de Vere (if one turns up in his autograph letters, flag it).
+
+**What we can do: compare spelling habits** (spelling analysis on holographs only, per CLAUDE.md)
+1. **Hand D transcription in original spelling:** from Pollard et al., *Shakespeare's Hand in the Play of Sir Thomas More* (1923; public domain in the US, on Internet Archive as `shakespeareshand0000poll`), or Greg's Malone Society edition (1911). Check it against the BL images.
+2. **De Vere holograph letters in original spelling:** needs a transcription source (see TODO.md, Oxford letters).
+3. **Features:** spellings of common words (e.g. Hand D's "scilens"), doubling, final -e, -ie/-y, use of y for i, and so on, computed on original spelling only.
+4. **Controls:** other holograph spellers of the period, such as Hands A, B and E in the same manuscript (Chettle, Heywood, Dekker), plus other courtiers' autograph letters. These test whether a de Vere/Hand D match is closer than chance.
+5. **Limits to state up front:** Hand D is short, it's dramatic verse rather than letters, its authorship is inferred, and spelling habits change over a lifetime. Pre-register the comparison in PREREG before computing it.

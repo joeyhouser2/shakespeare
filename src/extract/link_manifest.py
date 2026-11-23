@@ -19,6 +19,7 @@ IDX = ROOT / "data/reference/text/tcp_poems.csv"
 
 # item_id -> (TCP volume to search, expected first-line text). First edition preferred.
 OXFORD = {
+    "oxf-p-01": ("A17947", "The labouring man that tilles the fertile soyle"),
     "oxf-p-02": ("A21161", "Even as the waxe doeth melt"),
     "oxf-p-03": ("A21161", "A Croune of Bayes shall that man weare"),
     "oxf-p-04": ("A21161", "Fraud is the front of Fortune past all recouerie"),
@@ -30,6 +31,16 @@ OXFORD = {
     "oxf-p-11": ("A16731", "When wert thou born Desire"),
     "oxf-p-14": ("A11254", "What cunnnig can expresse"),
     "oxf-p-III": ("A16731", "If women would be faire and yet not fond"),
+    "oxf-p-15": ("A14826", "Who taught thee first to sigh"),
+}
+# Texts produced by src/extract/tcp_special.py (not in tcp_poems.csv)
+SPECIAL = {
+    "oxf-p-10": ("data/reference/text/edited/hannah1870_p144_fain_would_i_sing.txt",
+                 "text: EDITED - Hannah 1870 pp. 144-5 from Tanner 306 second copy (p./f. 193), MODERNIZED spelling; use only in the normalized layer; see text/edited/README.md"),
+    "oxf-p-16": ("data/reference/text/special/A07912_026_were_i_a_king_EDITORIAL.txt",
+                 "text: EDITORIAL reconstruction from Mundy 1594 song XXVI SVPERIVS (musical underlay, repeats removed); see src/extract/tcp_special.py"),
+    "oxf-l-002": ("data/reference/text/special/A17947_oxford_letter.txt",
+                  "text: TCP A17947 front matter, signed 'E. Oxenford.'; printed, so spelling is the compositor's, not Oxford's"),
 }
 EXTRA_NOTES = {
     "oxf-p-04": "TCP 1576 text reads 'Fraud is the front of Fortune'; 1585 ed. (A21166) reads 'Fram'd in the front of forlorne hope' as May",
@@ -38,6 +49,7 @@ EXTRA_NOTES = {
     "oxf-p-07": "TCP 1576 reads 'what wondes loue hath wrought' (May: 'wonders')",
     "oxf-p-14": "Phoenix Nest TCP typo 'cunnnig'; Englands Helicon 1600 copy also extracted, signed 'Earle of Oxenford.'",
     "oxf-p-III": "Bowre 1591 copy unsigned and reads 'would be faire'",
+    "oxf-p-15": "printed unsigned as Sonnet LX of The Tears of Fancie (1593), a sequence by T. W. (Watson); Oxford attribution rests on MS Rawl. poet. 85 subscription - attribution conflict",
 }
 SINGLE_AUTHOR = {"ctl-sid-as": "A12226", "ctl-sid-arc": "A12229", "ctl-gas-hsf": "A01513",
                  "ctl-gas-pos": "A01514", "ctl-goo": "A01909", "ctl-tur": "A14019", "ctl-chu": "A18734",
@@ -74,6 +86,15 @@ def main():
             if "text: TCP" not in r["notes"]:
                 r["notes"] = (r["notes"] + "; " + add).strip("; ")
             print(f"{iid}: {best['poem_id']} {score:.2f} signed={best['signed']!r} lines={best['n_lines']}")
+        elif iid in SPECIAL:
+            path, note = SPECIAL[iid]
+            lines = [l for l in (ROOT / path).read_text(encoding="utf-8").splitlines() if l.strip()]
+            r["orig_text_path"] = path
+            r["line_count"] = str(len(lines)) if iid.startswith("oxf-p") else ""
+            r["word_count"] = str(sum(len(l.split()) for l in lines))
+            if "text: " not in r["notes"]:
+                r["notes"] = (r["notes"] + "; " + note).strip("; ")
+            print(f"{iid}: {path} words={r['word_count']}")
         elif iid in SINGLE_AUTHOR:
             t = SINGLE_AUTHOR[iid]
             ps = [p for p in idx if p["tcp_id"] == t]

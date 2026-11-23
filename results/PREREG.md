@@ -26,13 +26,13 @@ Amendments section with date and reason; the original text is not edited.
 
 ## 2. Corpora
 - De Vere reference: May canon, secure poems only for the main test; "possible" poems held out and scored as candidates. Letters: holograph only for spelling features.
-- Controls (manifest role `control`). Courtier poets contemporary with Oxford: Sidney, Gascoigne, Googe, Turberville, Vaux, Edwards, Breton, Churchyard, Ralegh, Dyer, Essex, Greville. Cross-period and 1590s poets for the chronology check: Spenser (1579 and 1595), Watson, Daniel, Drayton, Lodge. Word counts TBD after text extraction.
+- Controls (manifest role `control`). Courtier poets contemporary with Oxford: Sidney, Gascoigne, Googe, Turberville, Vaux, Edwards, Breton, Churchyard, Ralegh, Dyer, Essex, Greville. Cross-period and 1590s poets for the chronology check: Spenser (1579 and 1595), Watson, Daniel, Drayton, Lodge. Item selection rules in src/extract/select_items.py; kept word counts in data/reference/text/README.md (range ~600 words for Dyer to ~56k for Gascoigne). Minimum words per author class for inclusion: TBD. Ralegh and Essex currently have no text.
 - Imposter pool (manifest role `imposter`): Phoenix Nest, Englands Helicon, Poetical Rapsody, with any items by test authors removed.
 - Shakespeare: Sonnets, Venus and Adonis, Lucrece, A Lover's Complaint, The Phoenix and Turtle, songs from plays. Edition: Folger Shakespeare. TBD confirm.
 - Exclusions decided before analysis: TBD
 
 ## 3. Features and text handling
-- Spelling: original and normalized versions; normalization rules in data/reference/NORMALIZATION.md (TBD).
+- Spelling: original and normalized versions; rule-based normalization defined in data/reference/NORMALIZATION.md (src/normalize/normalize.py, tested). Function words, character n-grams and vocabulary are computed on the MorphAdorner layer (text/norm_ma, filtered as documented); metre/syllable features on the rules layer (text/norm); original spelling only for holograph spelling-habit features. Modernized-source texts (Folger Shakespeare, Hannah 1870 de Vere No. 10) are used only in normalized layers. Normalizer choice made 2026-11-22 (MorphAdorner 2.0.1 over VARD2).
 - Feature sets: most-frequent-word lists (size TBD), character n-grams (n = TBD), rhyme/meter features (TBD).
 - Minimum text size for a scored sample: TBD words.
 - Sampling: TBD (whole poems vs fixed-length chunks; chunk size).

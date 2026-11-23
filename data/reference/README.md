@@ -24,6 +24,9 @@ Entries are added only after checking them against the cited source. Don't fill 
 | word_count / line_count | Computed from the original-spelling file by script |
 | notes | Anything else (variants, attribution doubts) |
 
+## Spelling layers
+Every text has an original-spelling version and a normalized version. The rules are in `NORMALIZATION.md`.
+
 ## Sources used (accessed 2026-11-22)
 - De Vere canon: CELM, Edward de Vere entry (https://celm.folger.edu/authors/oxfordedwarddevereearlof.html), which follows May 1980 (*Studies in Philology* 77.5) and gives MS witnesses and May numbers. CELM states no reuse licence, so we use it for metadata only.
 - May numbers 1, 5, 7 and 14 and their print-only sources come from the Shakespeare Oxford Fellowship "Twenty Poems" list (https://shakespeareoxfordfellowship.org/twenty-poems-de-vere). This is a secondary, advocacy source, used only to fill gaps CELM leaves. **Check these against May 1980 itself.**
@@ -34,7 +37,7 @@ Entries are added only after checking them against the cited source. Don't fill 
 - **Letters:** only one row so far (Lansdowne 33 f. 13r, holograph per Petti/CELM). The full list is Nelson, *Monstrous Adversary* (2003) pp. 487-9: 77 letters and memoranda, most autograph. Nelson's old Berkeley site is offline, so we need the book or library access.
 - **Attribution flags:** May No. 5 (CELM cross-references it to Essex), No. 6 (the print is subscribed "M. B."), No. 13 (one copy is credited to "Sr E: D:"). Settle these before locking PREREG.
 - May No. II goes to Dyer (per CELM), so it's out of the de Vere set. Nos. I, III and IV are "possible": held out of training and scored as candidates.
-- **Text:** extracted from EEBO-TCP for 10 of 16 secure de Vere poems, and for all single-author control collections. See `text/README.md`. The anthology rows (Vaux, Edwards, Breton, imposters) still need items filtered by signature.
+- **Text:** available for 14 of 16 secure de Vere poems: 13 from EEBO-TCP prints, plus No. 10 from Hannah 1870 in modernized spelling. The 1573 Bedingfield letter is also in. Text is also extracted for all single-author control collections. See `text/README.md`. The anthology rows (Vaux, Edwards, Breton, imposters) still need items filtered by signature.
 - **Controls:** 22 rows covering 17 authors, plus 3 anthologies as the imposter pool. Each row is one whole collection. Poem-level items live in `text/tcp_poems.csv`, linked by TCP ID, rather than as manifest rows.
   - Dyer, Ralegh and Essex have no single-author print, so their poem lists have to be built from CELM or modern editions.
   - In the anthologies (Tottel, Paradise, Bowre, Arbor), use only items signed by the author or securely his. The Bowre and Arbor also contain Oxford items, so keep those out of the control set.

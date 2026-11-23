@@ -10,7 +10,7 @@ Output:
   data/reference/text/tcp_poems.csv                index: heading, signature, first line, counts, path
 
 Text rules (original-spelling layer; see data/reference/NORMALIZATION.md for the normalized layer):
-  - characters kept exactly as TCP gives them (long s, u/v, i/j, abbreviation marks, superscripts inline: "yt")
+  - characters kept exactly as TCP gives them (long s, u/v, i/j, abbreviation marks, superscripts as Unicode modifier letters: "yᵗ", "yᵉ"; unmappable as "^x")
   - TCP's soft line wraps inside an <l> collapsed to single spaces
   - end-of-line hyphen glyphs (char:EOLhyphen) removed so the word joins up
   - <gap> (illegible/missing) becomes TCP's placeholder ("•" per letter, "〈◊〉" per word; "〈?〉" if none) and is counted
@@ -34,6 +34,14 @@ DROPCAP = re.compile(r"^((VV|UU)[A-Z]|(?!VV|UU)[A-Z][A-Z])[a-zſ']")  # VV/UU al
 NO_DROPCAP_SPLIT = {"epithalamium"}  # single long poems whose stanzas each open with a drop cap
 
 
+SUP = dict(zip("abcdefghijklmnoprstuvwxyz0123456789", "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻ⁰¹²³⁴⁵⁶⁷⁸⁹"))
+
+
+def superscript(s):
+    """Superscript letters as Unicode modifier letters (yᵉ, yᵗ, wᵗ); anything else as ^x (e.g. y^• = illegible)."""
+    return "".join(SUP.get(c, c if c.isspace() else "^" + c) for c in s)
+
+
 def local(tag):
     return tag.rsplit("}", 1)[-1] if isinstance(tag, str) else ""
 
@@ -51,6 +59,8 @@ def text_of(el, counter):
             parts.append(desc.strip() if desc else GAP); counter["gaps"] += 1
         elif t == "g" and e.get("ref") == "char:EOLhyphen":
             parts.append("\u0000")  # join marker, removed with surrounding whitespace
+        elif t == "hi" and e.get("rend") == "sup" and e is not el:
+            parts.append(superscript(text_of(e, counter)))
         else:
             if e.text:
                 parts.append(e.text)
