@@ -81,3 +81,19 @@ Kept, by author (words):
 **Sizes are very uneven:** Gascoigne has about 56k words; Dyer about 600, Breton about 1,400. The scoring step must sample equal-sized chunks per author (PREREG section 3). Authors with too little text should be dropped as classes or kept only in the imposter pool. **Decide that before scoring.**
 
 **Still without text:** Ralegh and Essex. Neither has a single-author print, and the anthology signatures aren't reliable for them.
+
+
+## Shakespeare (Stage 2 comparison texts)
+These come from first editions in EEBO-TCP, extracted with the same pipeline as the controls:
+
+| Work | Source | TCP | Text |
+|---|---|---|---|
+| Sonnets 1–154 | *Shake-speares Sonnets* (1609), STC 22353 | A12043 | A12043_001 to _154, mapped **by position** |
+| *A Lover's Complaint* | same volume | A12043 | A12043_155 (329 lines) |
+| *Venus and Adonis* | 1593, STC 22354 | A12045 | A12045_001 (1,194 lines) |
+| *Lucrece* | 1594, STC 22345 | A12035 | A12035_001 (1,855 lines) |
+| *The Phoenix and Turtle* | Chester, *Anuals of Great Brittaine* (1611 reissue of *Love's Martyr*, 1601), STC 5120 | A18592 | `special/A18592_phoenix_and_turtle.txt` (poem + "Threnos", signed "William Shake-speare.") |
+
+The 1609 Quarto misnumbers several sonnets: 8, 17, 119 and 121 are each used twice, and 9, 18, 116 and 122 are skipped. The TCP copies those printed numbers, so the sonnets are mapped by position, and each one is checked against Folger's first line. The Folger modern edition is a cross-check only (`folger/README.md`).
+
+In total there are 158 manifest rows and about 45,000 words.

@@ -1,0 +1,145 @@
+{
+  "seed": 20261122,
+  "n_texts": 1740,
+  "control_authors": [
+    "Churchyard",
+    "Daniel",
+    "Drayton",
+    "Edwards",
+    "Gascoigne",
+    "Googe",
+    "Greville",
+    "Lodge",
+    "Sidney",
+    "Spenser",
+    "Turberville",
+    "Vaux",
+    "Watson"
+  ],
+  "decoys_per_author": {
+    "Churchyard": 15,
+    "Daniel": 15,
+    "Drayton": 15,
+    "Edwards": 10,
+    "Gascoigne": 15,
+    "Googe": 15,
+    "Greville": 15,
+    "Lodge": 15,
+    "Sidney": 15,
+    "Spenser": 15,
+    "Turberville": 15,
+    "Vaux": 13,
+    "Watson": 15
+  },
+  "F1": {
+    "stage1": {
+      "n_loo": 11,
+      "n_decoy_control": 188,
+      "n_decoy_venue": 52,
+      "theta": 0.11,
+      "theta1": 0.16,
+      "recall_theta": 0.0,
+      "recall_theta_ci": [
+        0.0,
+        0.285
+      ],
+      "recall_theta1": 0.0,
+      "recall_theta1_ci": [
+        0.0,
+        0.285
+      ],
+      "auc_control": 0.538,
+      "auc_venue": 0.44,
+      "fpr_control_at_theta": 0.027,
+      "fpr_venue_at_theta": 0.096,
+      "underpowered": true,
+      "venue_effect": true
+    },
+    "stage2_positive": {
+      "theta_S": 0.49,
+      "n_pos": 33,
+      "pos_rate": 0.212,
+      "pos_ci": [
+        0.09,
+        0.389
+      ],
+      "pos_pass": false,
+      "auc": 0.808
+    },
+    "negative_control": {
+      "auc_by_author": {
+        "Churchyard": 0.997,
+        "Daniel": 0.826,
+        "Drayton": 0.94,
+        "Edwards": 0.662,
+        "Gascoigne": 0.903,
+        "Googe": 0.764,
+        "Greville": 0.809,
+        "Lodge": 0.754,
+        "Sidney": 0.814,
+        "Spenser": 0.762,
+        "Turberville": 0.742,
+        "Vaux": 0.594,
+        "Watson": 0.884
+      },
+      "median_auc": 0.809,
+      "pass": true
+    }
+  },
+  "F2": {
+    "stage1": {
+      "n_loo": 11,
+      "n_decoy_control": 188,
+      "n_decoy_venue": 52,
+      "theta": 0.07,
+      "theta1": 0.16,
+      "recall_theta": 0.273,
+      "recall_theta_ci": [
+        0.06,
+        0.61
+      ],
+      "recall_theta1": 0.0,
+      "recall_theta1_ci": [
+        0.0,
+        0.285
+      ],
+      "auc_control": 0.56,
+      "auc_venue": 0.484,
+      "fpr_control_at_theta": 0.032,
+      "fpr_venue_at_theta": 0.096,
+      "underpowered": true,
+      "venue_effect": true
+    },
+    "stage2_positive": {
+      "theta_S": 0.59,
+      "n_pos": 33,
+      "pos_rate": 0.333,
+      "pos_ci": [
+        0.18,
+        0.518
+      ],
+      "pos_pass": false,
+      "auc": 0.768
+    },
+    "negative_control": {
+      "auc_by_author": {
+        "Churchyard": 1.0,
+        "Daniel": 0.9,
+        "Drayton": 0.907,
+        "Edwards": 0.72,
+        "Gascoigne": 0.918,
+        "Googe": 0.791,
+        "Greville": 0.94,
+        "Lodge": 0.609,
+        "Sidney": 0.84,
+        "Spenser": 0.813,
+        "Turberville": 0.82,
+        "Vaux": 0.657,
+        "Watson": 0.868
+      },
+      "median_auc": 0.84,
+      "pass": true
+    }
+  },
+  "runtime_s": 573
+}

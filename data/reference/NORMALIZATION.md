@@ -25,7 +25,7 @@ Content-word spelling is handled by a second pass with MorphAdorner (below), so 
 ## Rules, applied in this order
 1. **Unicode:** NFC; non-breaking space → space.
 2. **Typographic letter forms:** ſ → s; Ʋ → V; é → e (some prints mark a long e this way: "thée", "bée"); "VV"/"vv" → W/w and "UU"/"uu" → W/w (TCP types w as two v's or two u's).
-3. **Drop caps:** a word typed with two capitals then lowercase ("FRaud", "THe") → one capital ("Fraud", "The").
+3. **Drop caps:** a word typed with two capitals then lowercase ("FRaud", "THe") → one capital ("Fraud", "The"). A doubled initial ("TThy") loses one letter.
 4. **Superscript abbreviations** (encoded as Unicode modifier letters in the original layer): yᵉ → the, yᵗ → that, yᵘ → thou, wᵗ → with, wᶜ → which. "y^•" (superscript illegible; 61 cases, 20 of them in texts used for analysis, 1 in Oxford material) → "that" if the next word is a pronoun, verb, or function word, or ends in -eth/-ed ("y^• they" → "that they"); otherwise "the" ("y^• earth" → "the earth"). Both guesses are counted in the log. Any other superscript has its marker dropped.
 5. **Abbreviation stroke** (combining macron, U+0304, over a vowel): → that vowel + "m" before b/p/m, otherwise + "n". "cōmaund" → "commaund", "thē" → "then". The "them"/"then" ambiguity is not resolved.
 6. **Symbols:** "&c" → "etc"; "&" → "and"; ꝙ (quod) removed; ꝰ → "us"; ꝑ → "per"; ꝓ → "pro".

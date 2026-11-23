@@ -1,0 +1,9 @@
+Recorded 2026-11-22 (validation run)
+python 3.12.7
+numpy 2.3.5
+scipy 1.17.1
+scikit-learn 1.6.1
+pandas 2.2.3
+java (MorphAdorner): java version "1.8.0_461"
+MorphAdorner 2.0.1 (sha256 2d5f74c1d6b00252a2e13eb390f1d111cfb475518b53302495ad2819a3be2bb7)
+OS: Windows 11

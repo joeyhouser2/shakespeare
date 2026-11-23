@@ -7,6 +7,10 @@
    an EDITORIAL reconstruction from the SVPERIVS part: repeats removed, lineation by rhyme,
    spelling as printed in that part. See RECONSTRUCTED below; check it against the TCP text.
 
+3. The Phoenix and Turtle from Chester, The Anuals of Great Brittaine (1611 reissue of Loves Martyr,
+   TCP A18592): the poem ("Let the bird of lowdest lay") and its "Threnos" (signed "William
+   Shake-speare.") are extracted as two pieces by tcp_verse.py; joined here into one text.
+
 Output: data/reference/text/special/  (separate from the automatic extraction in text/orig/)
 Usage: python src/extract/tcp_special.py
 """
@@ -94,7 +98,20 @@ def mundy():
     return len(RECONSTRUCTED.split())
 
 
+def phoenix_and_turtle():
+    import csv
+    idx = {r["poem_id"]: r for r in csv.DictReader(open(ROOT / "data/reference/text/tcp_poems.csv", encoding="utf-8"))}
+    poem = next(r for r in idx.values() if r["tcp_id"] == "A18592" and "bird of low" in r["first_line"])
+    thr = next(r for r in idx.values() if r["tcp_id"] == "A18592" and r["head"].startswith("Threnos"))
+    if "Shake-speare" not in thr["signed"]:
+        raise SystemExit("Threnos signature not found; recheck A18592")
+    text = (ROOT / poem["path"]).read_text(encoding="utf-8").rstrip("\n") + "\n\n" + (ROOT / thr["path"]).read_text(encoding="utf-8")
+    (OUT / "A18592_phoenix_and_turtle.txt").write_text(text, encoding="utf-8")
+    return poem["poem_id"], thr["poem_id"], len(text.split())
+
+
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
+    print("Phoenix and Turtle:", phoenix_and_turtle())
     print("Bedingfield letter words:", bedingfield_letter())
     print("Mundy reconstruction words:", mundy())

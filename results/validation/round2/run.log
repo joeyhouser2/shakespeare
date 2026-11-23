@@ -1,0 +1,115 @@
+stage 1 done (12s)
+stage 2 controls done (27s)
+negative controls done (161s)
+{
+ "F1": {
+  "stage1": {
+   "n_loo": 11,
+   "n_decoy_control": 188,
+   "n_decoy_venue": 52,
+   "theta": 0.83,
+   "theta1": 0.95,
+   "recall_theta": 0.091,
+   "recall_theta_ci": [
+    0.002,
+    0.413
+   ],
+   "recall_theta1": 0.0,
+   "recall_theta1_ci": [
+    0.0,
+    0.285
+   ],
+   "auc_control": 0.617,
+   "auc_venue": 0.463,
+   "fpr_control_at_theta": 0.016,
+   "fpr_venue_at_theta": 0.135,
+   "underpowered": true,
+   "venue_effect": true
+  },
+  "stage2_positive": {
+   "theta_S": 0.8,
+   "n_pos": 33,
+   "pos_rate": 0.273,
+   "pos_ci": [
+    0.133,
+    0.455
+   ],
+   "pos_pass": false,
+   "auc": 0.833
+  },
+  "negative_control": {
+   "auc_by_author": {
+    "Churchyard": 0.991,
+    "Daniel": 0.864,
+    "Drayton": 0.97,
+    "Edwards": 0.762,
+    "Gascoigne": 0.919,
+    "Googe": 0.803,
+    "Greville": 0.891,
+    "Lodge": 0.813,
+    "Sidney": 0.85,
+    "Spenser": 0.818,
+    "Turberville": 0.799,
+    "Vaux": 0.679,
+    "Watson": 0.892
+   },
+   "median_auc": 0.85,
+   "pass": true
+  }
+ },
+ "F2": {
+  "stage1": {
+   "n_loo": 11,
+   "n_decoy_control": 188,
+   "n_decoy_venue": 52,
+   "theta": 0.88,
+   "theta1": 0.94,
+   "recall_theta": 0.091,
+   "recall_theta_ci": [
+    0.002,
+    0.413
+   ],
+   "recall_theta1": 0.0,
+   "recall_theta1_ci": [
+    0.0,
+    0.285
+   ],
+   "auc_control": 0.492,
+   "auc_venue": 0.389,
+   "fpr_control_at_theta": 0.048,
+   "fpr_venue_at_theta": 0.058,
+   "underpowered": true,
+   "venue_effect": false
+  },
+  "stage2_positive": {
+   "theta_S": 0.87,
+   "n_pos": 33,
+   "pos_rate": 0.333,
+   "pos_ci": [
+    0.18,
+    0.518
+   ],
+   "pos_pass": false,
+   "auc": 0.794
+  },
+  "negative_control": {
+   "auc_by_author": {
+    "Churchyard": 1.0,
+    "Daniel": 0.878,
+    "Drayton": 0.91,
+    "Edwards": 0.847,
+    "Gascoigne": 0.929,
+    "Googe": 0.847,
+    "Greville": 0.956,
+    "Lodge": 0.704,
+    "Sidney": 0.881,
+    "Spenser": 0.811,
+    "Turberville": 0.816,
+    "Vaux": 0.788,
+    "Watson": 0.88
+   },
+   "median_auc": 0.878,
+   "pass": true
+  }
+ }
+}

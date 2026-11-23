@@ -63,6 +63,39 @@ def fold(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+SHAKESPEARE = {"shk-ven": "A12045_001", "shk-luc": "A12035_001", "shk-lc": "A12043_155"}
+
+
+def shakespeare_path(iid, idx):
+    """Map Shakespeare rows to first-edition TCP texts.
+    1609 Sonnets: by POSITION (the Quarto's printed sonnet numbers, copied into the TCP 'n'
+    attributes, contain misprints: 8, 17, 119, 121 doubled; 9, 18, 116, 122 absent). Each
+    sonnet's first line is checked against the Folger edition's sonnet of the same number."""
+    if iid == "shk-pt":
+        return "data/reference/text/special/A18592_phoenix_and_turtle.txt"
+    if not iid.startswith("shk-son-"):
+        pid = SHAKESPEARE.get(iid)
+        row = next((p for p in idx if p["poem_id"] == pid), None)
+        return row["path"] if row else None
+    n = int(iid.rsplit("-", 1)[1])
+    sonnets = [p for p in idx if p["tcp_id"] == "A12043" and p["div_path"].startswith("text/sonnet")]
+    if len(sonnets) != 154:
+        raise SystemExit(f"expected 154 sonnets in A12043, found {len(sonnets)}")
+    row = sonnets[n - 1]
+    folger = ROOT / f"data/reference/text/folger/Son_{n:03d}.txt"
+    if folger.exists():
+        f1 = fold(folger.read_text(encoding="utf-8").splitlines()[0])
+        t1 = fold(row["first_line"])
+        score = SequenceMatcher(None, f1, t1).ratio()
+        FOLGER_CHECK[iid] = score
+        if score < 0.6:
+            raise SystemExit(f"{iid}: TCP {row['poem_id']} first line does not match Folger ({score:.2f}): {row['first_line']!r}")
+    return row["path"]
+
+
+FOLGER_CHECK = {}
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     idx = list(csv.DictReader(open(IDX, encoding="utf-8")))
@@ -95,6 +128,13 @@ def main():
             if "text: " not in r["notes"]:
                 r["notes"] = (r["notes"] + "; " + note).strip("; ")
             print(f"{iid}: {path} words={r['word_count']}")
+        elif r["author"] == "Shakespeare":
+            sp = shakespeare_path(iid, idx)
+            if sp:
+                text = (ROOT / sp).read_text(encoding="utf-8")
+                lines = [l for l in text.splitlines() if l.strip()]
+                r["orig_text_path"] = sp
+                r["line_count"] = str(len(lines)); r["word_count"] = str(sum(len(l.split()) for l in lines))
         elif iid in SINGLE_AUTHOR:
             t = SINGLE_AUTHOR[iid]
             ps = [p for p in idx if p["tcp_id"] == t]
@@ -103,6 +143,9 @@ def main():
             r["word_count"] = str(sum(int(p["n_words"]) for p in ps))
     with open(MAN, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
+    if FOLGER_CHECK:
+        worst = sorted(FOLGER_CHECK.items(), key=lambda t: t[1])[:3]
+        print(f"Sonnets: {len(FOLGER_CHECK)} first lines checked against Folger; lowest match {worst}")
 
 
 if __name__ == "__main__":

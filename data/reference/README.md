@@ -30,7 +30,7 @@ Every text has an original-spelling version and a normalized version. The rules 
 ## Sources used (accessed 2026-11-22)
 - De Vere canon: CELM, Edward de Vere entry (https://celm.folger.edu/authors/oxfordedwarddevereearlof.html), which follows May 1980 (*Studies in Philology* 77.5) and gives MS witnesses and May numbers. CELM states no reuse licence, so we use it for metadata only.
 - May numbers 1, 5, 7 and 14 and their print-only sources come from the Shakespeare Oxford Fellowship "Twenty Poems" list (https://shakespeareoxfordfellowship.org/twenty-poems-de-vere). This is a secondary, advocacy source, used only to fill gaps CELM leaves. **Check these against May 1980 itself.**
-- Shakespeare: Folger Shakespeare downloads, free for noncommercial use.
+- Shakespeare: first editions from EEBO-TCP (1609 *Sonnets* and *A Lover's Complaint*, 1593 *Venus*, 1594 *Lucrece*, *Phoenix and Turtle* from the 1611 reissue of *Love's Martyr*). The Folger Shakespeare XML (CC BY-NC 3.0) is used only as a cross-check; see `text/folger/README.md`.
 - Controls: EEBO-TCP. TCP IDs, STC numbers and imprints were read from the TCP catalogue CSV (github.com/textcreationpartnership/Texts) and each text's TEI header. Phase I transcriptions are public domain (released 1 January 2015) and Phase II transcriptions carry a CC0 1.0 waiver, per each file's TEI header. Page images are not covered.
 
 ## Open issues

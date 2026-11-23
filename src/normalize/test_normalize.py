@@ -20,6 +20,7 @@ def test_accent_e():
 def test_drop_cap():
     assert n("FRaud is the front") == "Fraud is the front"
     assert n("THe liuely Larke") == "The lively Larke"
+    assert n("TThy guift") == "Thy guift"
 
 
 def test_superscripts():

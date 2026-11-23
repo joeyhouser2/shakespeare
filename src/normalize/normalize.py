@@ -52,8 +52,10 @@ def match_case(src, repl):
 
 def fix_word(w, log):
     """Rules 3, 7, 8 on a single word (after typographic rules)."""
-    # 3. drop caps: FRaud -> Fraud (two caps then lowercase)
-    if re.fullmatch(r"[A-Z]{2}[a-z].*", w):
+    # 3. drop caps: FRaud -> Fraud (two caps then lowercase); a doubled initial (TThy) loses one
+    if re.fullmatch(r"([A-Z])\1[a-z].*", w):
+        w = w[1:]; log["dropcap"] += 1
+    elif re.fullmatch(r"[A-Z]{2}[a-z].*", w):
         w = w[0] + w[1:].lower(); log["dropcap"] += 1
     # 7a. initial v + consonant -> u
     if len(w) > 1 and w[0] in "vV" and w[1].lower() not in "aeiouy":
