@@ -12,7 +12,7 @@ Status: **LOCKED 2026-11-23.** Validation is complete (round 2 final, failed; ou
 No candidate (section 2.6) and no Stage 2 de Vere-vs-Shakespeare score is computed before the lock. After locking, changes go in the Amendments section with date and reason; the original text is not edited.
 
 - Locked on: 2026-11-23
-- Lock commit: the commit titled "Lock PREREG" (its hash is recorded in the next commit, because a commit cannot contain its own hash)
+- Lock commit: `1f8c0898708cf5649bdc5fdd8e9085c63a0f57ba` ("Lock PREREG"; hash recorded in the following commit). Check with `git diff 1f8c089 -- results/PREREG.md`: only this line and Amendments may differ.
 - Random seed for every sampling step: **20261122**
 
 Corpus measurements behind the choices below (tokens in the MorphAdorner layer, counted 2026-11-22): de Vere secure poems 52–297 tokens each, about 2,600 in total; Shakespeare non-dramatic verse about 45,000 (sonnets median 116); control authors from about 600 (Dyer) to about 56,000 (Gascoigne). Only sizes were examined, not scores.
