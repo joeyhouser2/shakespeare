@@ -7,7 +7,7 @@ Entries are added only after checking them against the cited source. Don't fill 
 |---|---|
 | item_id | Stable ID, e.g. `oxf-p-01` (poem), `oxf-l-01` (letter), `sid-p-01`, `shk-son-018` |
 | author | Name as used in the project (Oxford, Sidney, Shakespeare, ...) |
-| role | `target` (de Vere), `control`, `comparison` (Shakespeare, Stage 3 candidates) |
+| role | `target` (de Vere), `control` (author classes), `comparison` (Shakespeare, Stage 3 candidates), `imposter` (mixed anthologies used only as the General Imposters pool) |
 | genre | `lyric`, `sonnet`, `narrative-verse`, `song`, `letter` |
 | title_or_first_line | First line in original spelling if untitled |
 | canon_status | `secure`, `possible`, `disputed` |
@@ -23,3 +23,22 @@ Entries are added only after checking them against the cited source. Don't fill 
 | orig_text_path / norm_text_path | Paths to original-spelling and normalized text files |
 | word_count / line_count | Computed from the original-spelling file by script |
 | notes | Anything else (variants, attribution doubts) |
+
+## Sources used (accessed 2026-11-22)
+- De Vere canon: CELM, Edward de Vere entry (https://celm.folger.edu/authors/oxfordedwarddevereearlof.html), which follows May 1980 (*Studies in Philology* 77.5) and gives MS witnesses and May numbers. CELM states no reuse licence, so we use it for metadata only.
+- May numbers 1, 5, 7 and 14 and their print-only sources come from the Shakespeare Oxford Fellowship "Twenty Poems" list (https://shakespeareoxfordfellowship.org/twenty-poems-de-vere). This is a secondary, advocacy source, used only to fill gaps CELM leaves. **Check these against May 1980 itself.**
+- Shakespeare: Folger Shakespeare downloads, free for noncommercial use.
+- Controls: EEBO-TCP. TCP IDs, STC numbers and imprints were read from the TCP catalogue CSV (github.com/textcreationpartnership/Texts) and each text's TEI header. Phase I and Phase II transcriptions are both CC0 1.0, per the licence statement in each TEI header. Page images are not covered.
+
+## Open issues
+- **Letters:** only one row so far (Lansdowne 33 f. 13r, holograph per Petti/CELM). The full list is Nelson, *Monstrous Adversary* (2003) pp. 487-9: 77 letters and memoranda, most autograph. Nelson's old Berkeley site is offline, so we need the book or library access.
+- **Attribution flags:** May No. 5 (CELM cross-references it to Essex), No. 6 (the print is subscribed "M. B."), No. 13 (one copy is credited to "Sr E: D:"). Settle these before locking PREREG.
+- May No. II goes to Dyer (per CELM), so it's out of the de Vere set. Nos. I, III and IV are "possible": held out of training and scored as candidates.
+- **Text:** none collected yet. The 1576 *Paradise of Dainty Devices* and the other prints should be on EEBO-TCP. Look up STC numbers there rather than from memory.
+- **Controls:** 22 rows covering 17 authors, plus 3 anthologies as the imposter pool. Each row is one whole collection for now; split them into one row per poem when the text is extracted.
+  - Dyer, Ralegh and Essex have no single-author print, so their poem lists have to be built from CELM or modern editions.
+  - In the anthologies (Tottel, Paradise, Bowre, Arbor), use only items signed by the author or securely his. The Bowre and Arbor also contain Oxford items, so keep those out of the control set.
+  - Sidney's *Certain Sonnets* (1598 folio, STC 22541) and the 1592 *Delia* have no TCP text. We use the 1594 *Delia* instead.
+  - Check that the E.O. poems are actually in the 1576 *Paradise* TCP text (A21161), not only in later editions.
+  - Balance sample sizes when sampling (PREREG section 3). Collections differ a lot in length.
+- **Shakespeare songs from the plays:** not added yet.

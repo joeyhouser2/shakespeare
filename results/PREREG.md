@@ -26,7 +26,8 @@ Amendments section with date and reason; the original text is not edited.
 
 ## 2. Corpora
 - De Vere reference: May canon, secure poems only for the main test; "possible" poems held out and scored as candidates. Letters: holograph only for spelling features.
-- Controls: list authors and word counts. TBD
+- Controls (manifest role `control`). Courtier poets contemporary with Oxford: Sidney, Gascoigne, Googe, Turberville, Vaux, Edwards, Breton, Churchyard, Ralegh, Dyer, Essex, Greville. Cross-period and 1590s poets for the chronology check: Spenser (1579 and 1595), Watson, Daniel, Drayton, Lodge. Word counts TBD after text extraction.
+- Imposter pool (manifest role `imposter`): Phoenix Nest, Englands Helicon, Poetical Rapsody, with any items by test authors removed.
 - Shakespeare: Sonnets, Venus and Adonis, Lucrece, A Lover's Complaint, The Phoenix and Turtle, songs from plays. Edition: Folger Shakespeare. TBD confirm.
 - Exclusions decided before analysis: TBD
 
