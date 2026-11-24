@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 TEXT = ROOT / "data/reference/text"
-SOURCES = ["orig", "special", "edited"]
+SOURCES = ["orig", "special", "edited", "songs"]
 NORM = TEXT / "norm"
 
 VOWELS = "aeiouyAEIOUY"

@@ -1,4 +1,4 @@
-"""Fetch EEBO-TCP TEI XML files listed in data/reference/manifest.csv.
+"""Fetch EEBO-TCP TEI XML files listed in data/reference/manifest.csv and data/candidates/tcp_sources.csv.
 
 Dry run by default: prints what would be fetched. Pass --go to download.
 Never overwrites an existing file. Logs sha256, size, URL and date to
@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "data/reference/manifest.csv"
+CANDIDATE_SOURCES = ROOT / "data/candidates/tcp_sources.csv"
 OUT = ROOT / "data/reference/raw/tcp"
 LOG = ROOT / "data/reference/raw/tcp_fetch_log.csv"
 URL = "https://raw.githubusercontent.com/textcreationpartnership/{id}/master/{id}.xml"
@@ -35,6 +36,9 @@ def wanted_ids():
     with open(MANIFEST, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             ids |= set(re.findall(r"TCP (A\d{5})", r["printed_source"]))
+    if CANDIDATE_SOURCES.exists():
+        with open(CANDIDATE_SOURCES, encoding="utf-8") as f:
+            ids |= {r["tcp_id"] for r in csv.DictReader(f)}
     return sorted(ids)
 
 

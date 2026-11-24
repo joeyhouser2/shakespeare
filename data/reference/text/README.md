@@ -5,7 +5,7 @@ Generated from the raw EEBO-TCP XML by `src/extract/tcp_verse.py`, then linked t
 - `orig/<TCP>/<TCP>_<nnn>.txt`: one poem per file, in original spelling, one verse line per line, with a blank line between stanzas.
 - `tcp_poems.csv`: one row per extracted poem. Columns: `poem_id`, `tcp_id`, `div_path` (TEI div types), `head` (heading), `signed` (signature, e.g. `E. O.`), `first_line`, `n_lines`, `n_words`, `n_gaps`, `split`, `path`.
 
-Run on 2026-11-22: **2,714 poems from 25 volumes.**
+Run on 2026-11-23: **4,198 poems from 40 volumes** (including the candidate-source volumes listed in `data/candidates/tcp_sources.csv`).
 
 ## How poems are split
 1. Each leaf TEI `div` that contains verse is a candidate poem.
@@ -97,3 +97,7 @@ These come from first editions in EEBO-TCP, extracted with the same pipeline as 
 The 1609 Quarto misnumbers several sonnets: 8, 17, 119 and 121 are each used twice, and 9, 18, 116 and 122 are skipped. The TCP copies those printed numbers, so the sonnets are mapped by position, and each one is checked against Folger's first line. The Folger modern edition is a cross-check only (`folger/README.md`).
 
 In total there are 158 manifest rows and about 45,000 words.
+
+
+## Songbooks (`songs/`)
+Dowland's songbooks (A20689, A20692, A20693, A20695, A20696) are extracted by `src/extract/songbooks.py`, not `tcp_verse.py`, whose output for these volumes is unusable because it picks up the music parts. Only stanzas printed as plain verse are kept (no music gaps). Stanza 1, printed only as music underlay, is not reconstructed. The index is `songs/songs.csv`: 107 songs, 73 with clean stanzas.
