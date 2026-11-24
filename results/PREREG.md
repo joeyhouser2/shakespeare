@@ -198,4 +198,37 @@ With N candidates, about 0.05 × N false leads are expected at θ. The report al
 - **Any new analysis needs its own amendment, declared before it is computed.** Examples: aggregating all de Vere poems into one sample, adding more de Vere text (letters, Nos. 12–13), or a different method. Its results are reported as new, not as a rescue of this design.
 
 ## Amendments
-(none)
+
+### Amendment 1: scoring Stage 1 candidates (2026-11-23; declared before any candidate is scored)
+**Why:** the locked design (sections 2.6, 4.3, 4.4) says candidates are scored after the lock, but it doesn't say how to handle candidates whose text also sits in the imposter pool, or candidates that were used as validation decoys. Nothing below changes the method, features, thresholds or the registered outcome (Stage 1 underpowered).
+
+**A1.1 Candidate set.**
+- The set is `data/candidates/manifest.csv` as committed together with this amendment (selection rules in `src/harvest/select_candidates.py`; full decision log in `data/candidates/selection_log.csv`).
+- Only candidates with at least 100 tokens (`scorable = 1`) are scored: 467 of 716. The rest are listed, not scored. That includes *Englands Parnassus* "What plague is greater…" (E. of Ox., 51 tokens).
+- Songbook candidates are scored on their plain-verse stanzas only (stanza 1 missing) and flagged as such.
+
+**A1.2 Self-match exclusion.**
+- Before a candidate is scored, every copy of it (all `witnesses`, matched by first line) is removed from the reference and imposter texts. The affected author's or pool's documents are then rebuilt, exactly as for leave-one-out.
+- This matters for the 159 scorable candidates with a copy in an imposter-pool volume (*Phoenix Nest*, *England's Helicon*, 1602 *Rapsody*).
+- Imposter set: all reference documents from authors other than Oxford, plus the pool (section 4.1). The open-set rule doesn't apply, because the candidate's author is unknown.
+
+**A1.3 Validation decoys.**
+- 13 scorable candidates (initialed poems in the 1576 *Paradise*) were same-venue decoys in validation round 2, and their scores helped set θ.
+- They are scored and listed, but reported separately and **excluded from the H1 count**. That gives **N = 454** for H1.
+
+**A1.4 Scoring and labels.**
+- Each candidate is scored with F1 (which decides) and F2 (reported in parallel), with the round 2 method: balanced GI, seed 20261122, per-test generator keyed on the candidate id.
+- **Lead** = F1 score ≥ θ = 0.83. **Strong lead** = F1 score ≥ θ₁ = 0.95.
+- The nearest-centroid author (section 4.2) is reported for each candidate.
+
+**A1.5 Test of H1.**
+- One-sided exact binomial test of the number of leads among the N = 454, against the chance rate measured on the round 2 decoys at θ: **p₀ = 0.0417** (10/240), so about 18.9 leads are expected by chance.
+- Strong leads are reported the same way against p₀ = 0.0083 (2/240), so about 3.8 expected.
+- α = 0.05.
+- **Stated in advance:** the candidates come from the same anthologies and decades as de Vere's printed poems, whereas the decoys are mostly from single-author control books. So an excess of leads may reflect shared period, venue or printing conventions rather than de Vere's authorship (see the *Paradise* venue effect in validation). A significant result would therefore *not* be read as evidence that the pool contains de Vere poems. A non-significant result means the stylometric screen found nothing beyond chance.
+
+**A1.6 Reporting.**
+- All 467 scores are published.
+- Leads are listed by score, each with: every copy and its signature, source volume and date, whether it comes from a *Paradise* edition (venue caveat), its nearest-centroid author, and a pointer to the outside checks needed (other copies in the Folger First-Line Index or CELM, manuscript context).
+- No lead is called an attribution. Stage 1 stays labelled **underpowered**.
+- Output goes to `results/stage1/`.
