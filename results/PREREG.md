@@ -299,3 +299,77 @@ Each split-half run uses a separate profile and sample set:
 - Code: `src/score/pooled.py`, with unit tests for the sampling rules.
 - Output: `results/stage2_pooled/`.
 - Order: validation is computed and written out **before** the main run. The main run is a separate command, so the validation result can be checked first.
+
+### Amendment 3: Hand D spelling comparison (2026-11-25; declared before any text for it is collected or computed)
+**Why:** section 6 and plan.md Stage 2b leave spelling-habit analysis to its own amendment. It's a new analysis. Nothing in it changes any earlier outcome.
+
+**A3.0 What had been seen at declaration.**
+- No transcription of Hand D and no text of any autograph letter had been collected or opened for this project.
+- From general reading and web-search summaries, the analyst knew that Hand D spells *silence* "scilens" (also found in the 1600 print of *2 Henry IV*), that the spelling case for Hand D = Shakespeare has been challenged, and that de Vere wrote italic.
+- Of A. H. Nelson's archived site, only the letter indexes (links) and the permissions page were opened. His page on Oxford's spelling was **not** opened.
+- The spelling variables in A3.8 were chosen from general knowledge of Elizabethan spelling, which includes the "scilens" example. They're descriptive only.
+
+**A3.1 Question.**
+- **Q3:** Is the spelling of Hand D closer to the spelling in de Vere's autograph writing than to that of other writers of the period?
+- The test can't show **who wrote Hand D**. A top rank for any writer means only "closest among those compared".
+- It can't test **Shakespeare** at all: apart from Hand D, whose attribution is itself an inference, only six signatures survive.
+
+**A3.2 Hypotheses.**
+- **H3 (null):** de Vere's rank among the writers is what a writer unconnected with Hand D could get.
+- **H3a:** de Vere is closer than the controls. **H3b:** de Vere is no closer than the controls. Rules in A3.7. Both, and "inconclusive", are reported with equal prominence.
+
+**A3.3 Corpus.** Listed in `data/hand_d/manifest.csv` with source, shelfmark, URL, license, access date and file hash.
+- **Query:** Hand D (BL Harley MS 7368, ff. 8r–9r/v as printed in the edition used). Transcription: W. W. Greg's diplomatic transcript (Malone Society 1911, or his special transcript in Pollard et al. 1923), proofread in full against the British Library images. Only the words of Hand D: no speech prefixes, stage directions added by others, or alterations by other hands. Words Hand D deleted are included if fully legible.
+- **De Vere:** every English letter and memorandum that A. H. Nelson marks as autograph (or that the manifest source otherwise documents as entirely in his hand). Secretary and scribal items are excluded, as are non-English items and text in another hand.
+- **Controls:** every writer who, in a source listed in the manifest, has English text that (i) is documented as in the writer's own hand, (ii) is transcribed diplomatically (original spelling kept), and (iii) dates from 1560–1620. Letters, memoranda, diaries and autograph literary manuscripts count. Candidate sources, in this order: *Bess of Hardwick's Letters* (Glasgow/Sheffield; non-commercial use); the Malone Society editions of autograph play manuscripts (including the other hands in *Sir Thomas More*, and Munday's *John a Kent*); Greg's *Henslowe Papers* (1907); Folger EMMO transcriptions (licence to be checked); public-domain old-spelling editions of autograph letters.
+- A source is added or dropped **only before the freeze**, and every eligible writer in a used source is included. The manifest records each source considered and, if dropped, why.
+- **Eligibility:** at least two documents, and some split by whole documents that leaves at least L usable tokens held out and at least P = 2,000 for the profile, where L is the number of usable tokens in Hand D. Writers who fail this are listed, not used.
+- Transcription texts are kept out of the public repository (source terms). Their hashes are committed.
+
+**A3.4 Text handling** (`tokenize_line` in `src/score/spelling.py`).
+- Differences that mostly reflect transcribers are folded away: case; long s → s; superscript letters → ordinary letters; u/v → u; i/j → i; apostrophes removed.
+- Dropped: any word containing editor-supplied, expanded or doubtful letters (marked with brackets in our text files), illegible letters, numerals, or an abbreviation stroke. Extraction must mark italic or bracketed expansions this way.
+- **Standard forms:** each distinct spelling gets one standard modern word in `data/hand_d/standard_forms.csv`. The table is built from the pooled vocabulary, alphabetized, with no writer labels, prefilled by the project's rules normalizer, and checked by hand for every row.
+- Excluded in that table: proper names, non-English words, and spellings that can stand for two different words (e.g. "then", "of", "to", "bee").
+
+**A3.5 Score.**
+- Informative tokens: Hand D tokens whose standard word has at least two spellings anywhere in the frozen corpus.
+- Each of 200 draws takes one profile sample of exactly P tokens per writer (whole documents in random order, the last cut to a contiguous window). So profile size can't favour a writer.
+- Background B(spelling | word) = pooled counts over all writers' samples in that draw, add-β smoothed (β = 0.5).
+- Writer probability: P_w = (count_w(word, spelling) + α·B) / (count_w(word) + α), α = 1.
+- **Score:** the mean of log(P_w / B) over informative tokens and draws. Higher is closer. A word a writer never uses contributes zero.
+- Seed 20261122.
+
+**A3.6 Validation** (before Hand D is scored; only its length L is used).
+- For each eligible writer, 50 trials: hold out whole documents, cut to L tokens, build that writer's profile from the rest, and rank all writers (20 draws per trial).
+- **V1:** macro-averaged share of trials where the true writer ranks first is at least **0.70**.
+- **V2:** the same share for de Vere's own held-out samples is at least **0.70**.
+- Also required: de Vere eligible and at least **10** eligible control writers.
+- If any requirement fails, the analysis is **inconclusive** and Hand D is **not scored**. There's no second round under this amendment.
+
+**A3.7 Decision rule** (N = eligible control writers).
+- **Too little data** (inconclusive): N < 10, or fewer than 200 informative tokens.
+- **H3a** only if all hold: N ≥ **19** (so that first place by chance is at most 1 in 20); de Vere ranks first; and in at least **95%** of 1,000 bootstrap resamples of Hand D's lines he beats every control.
+- **H3b** if de Vere's rank is below the middle of the N + 1 writers: rank > (N + 2) / 2.
+- Otherwise **inconclusive**. With 10–18 controls, H3a can't be reached.
+
+**A3.8 Descriptive only.**
+- All writers' scores and ranks.
+- Eight spelling variables (`VARIABLES` in the code): added final -e; final -y as -ie; i as y; extra and reduced doubled consonants; doubled e or o; ea as ee; sc for s. Distance is the mean absolute difference in rates, over variables with at least 5 opportunities on both sides.
+- Nothing in this list changes the outcome.
+
+**A3.9 Caveats stated before computing.**
+- Hand D is short, dramatic verse and prose, in secretary script. De Vere's texts are mostly letters, in italic. A writer may spell differently across genre, script, audience and date.
+- **Cross-register recognition is not validated**, unless the corpus contains a writer with both letters and a literary manuscript, in which case it's reported. So H3b would mean "not closer in a comparison across genres", not "de Vere did not write Hand D".
+- Each source has its own transcriber. De Vere's texts come from one, so editor habits are confounded with him despite the folding. Whether validation errors cluster by source is reported.
+- Writers with little text are absent, including most dramatists, so the likeliest alternative writers may be missing.
+- The date of Hand D is disputed (about 1593–1604). De Vere's letters span 1563–1604.
+- A match would be a **lead** for a palaeographer, not an attribution. No handwriting is judged here.
+
+**A3.10 Order and freeze.**
+1. Collect texts into `data/hand_d/`. Before the freeze, only token counts and the unlabelled vocabulary list are computed.
+2. Check the standard-form table. Run `freeze`, which hashes the manifest, table and code. Commit.
+3. Run `validate`. Commit the result.
+4. Only if it passed, run `main`.
+- Code: `src/score/spelling.py`, tests `src/score/test_spelling.py`. Output: `results/stage2b_spelling/`. Existing results are never overwritten.
+- Newly reported evidence about either man (`data/evidence/register.csv`) doesn't enter this comparison unless it supplies autograph text meeting A3.3 before the freeze.

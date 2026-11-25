@@ -28,7 +28,7 @@ These are the gaps in the secure canon (May 1980). Original spelling matters bec
 - **Leads:** Grosart 1872; Digital Bodleian; May 1980 No. 13.
 
 ## Decisions needed
-- **Hand D spelling comparison** (plan.md Stage 2b): get the Hand D transcription (Pollard 1923, public domain) and de Vere holograph letter transcriptions, then pre-register.
+- **Hand D spelling comparison** (plan.md Stage 2b): pre-registered as PREREG Amendment 3 (2026-11-25). Next: approve the downloads listed in `data/hand_d/README.md`; read the terms of the control sources; find at least 10 (ideally 19 or more) eligible control writers; proofread Hand D against the BL images; check `standard_forms.csv`; freeze, validate, then score.
 
 ## Other open items
 - **Check the Hannah No. 10 OCR text** against the page image (Internet Archive `courtlypoetsfro00wottgoog`, pp. 144–5).

@@ -40,6 +40,10 @@ desktop.ini
 # Raw downloaded source texts (re-fetchable; checksums in *_fetch_log.csv)
 data/reference/raw/*/
 
+# Hand D comparison: transcriptions have reuse limits; hashes are in data/hand_d/manifest.csv
+data/hand_d/raw/
+data/hand_d/text/
+
 # External tools (downloaded; see tools/README.md)
 tools/*/
 
