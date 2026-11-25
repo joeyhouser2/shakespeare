@@ -232,3 +232,70 @@ With N candidates, about 0.05 × N false leads are expected at θ. The report al
 - Leads are listed by score, each with: every copy and its signature, source volume and date, whether it comes from a *Paradise* edition (venue caveat), its nearest-centroid author, and a pointer to the outside checks needed (other copies in the Folger First-Line Index or CELM, manuscript context).
 - No lead is called an attribution. Stage 1 stays labelled **underpowered**.
 - Output goes to `results/stage1/`.
+
+### Amendment 2: pooled de Vere sample vs Shakespeare (2026-11-25; declared before anything for it is computed)
+**Why:** the registered Stage 2 design (sections 1, 4, 5.2) works at the level of single poems and was declared **inconclusive**. Its positive control failed, because texts of 100–300 tokens carry too little author signal. This is a **new, separately registered analysis**, not a rescue of that design. Its result is reported as new, and the Stage 2 outcome above stays **inconclusive**. Larger samples are the standard remedy for weak signal in short texts, and de Vere's whole core canon is just large enough for one sample.
+
+**A2.1 Question.**
+- **Q2-pooled:** treating de Vere's core poems as one sample, is it closer to Shakespeare's non-dramatic verse than equal-sized samples from the period control poets are?
+
+**A2.2 Samples (all from the MorphAdorner layer, tokenized as in section 3.2).**
+- **Sample size:** S = **2,200 tokens** for every sample. De Vere's core is 2,246 tokens.
+- **De Vere:** one sample. The 12 core poems (section 2.1) are joined in May order and cut to the first 2,200 tokens.
+- **Control authors:** B = **100** random samples per author. Each sample is built from whole poems in random order until S is reached, then cut to S. A poem longer than the remaining need contributes a contiguous random window of the needed length.
+- **Comparison set (used for the decision):** control authors with at least 2S = 4,400 tokens, so each can give two or more independent samples. That's 11 authors: Daniel, Drayton, Lodge, Watson, Googe, Greville, Spenser, Sidney, Churchyard, Turberville, Gascoigne.
+  - Vaux and Edwards (about 2,800 tokens each) are sampled and reported, but **excluded from the decision**, because their 100 samples would overlap almost completely.
+- **Shakespeare:** B = 100 samples, drawn the same way from the Stage 2 target texts (Sonnets, *Venus*, *Lucrece*, *Phoenix and Turtle*). *A Lover's Complaint* is scored separately and described only.
+- **Random seed:** 20261122. Each author's sampling has its own generator, keyed on the author name.
+
+**A2.3 Features and distance.**
+- **F1 (decides):** the 150 most frequent words over all tokens of the comparison set, Shakespeare and de Vere. Values are relative frequencies, z-scored with the mean and SD across all control and Shakespeare samples in the run.
+- **F2 (reported in parallel):** 300 most frequent character 3-grams, built and scaled the same way.
+- **Shakespeare profile:** the mean z-vector of the 100 Shakespeare samples.
+- **D(x):** the cosine distance from sample x to the Shakespeare profile (Cosine Delta).
+
+**A2.4 Validation (computed first; if either check fails, the pooled analysis is reported as inconclusive).**
+Each split-half run uses a separate profile and sample set:
+- Every comparison author and Shakespeare is split in two halves by alternating poems in corpus order. For Shakespeare, *Venus* goes to half A and *Lucrece* plus *Phoenix and Turtle* to half B.
+- Profiles are built from samples of one half, test samples from the other, and then the halves are swapped. Each run uses 100 samples per half.
+
+**V1, Shakespeare positive control:**
+- Held-out Shakespeare samples (D to the opposite-half Shakespeare profile) are compared with comparison-author samples (D to the same profile).
+- **Pass** requires both:
+  - AUC ≥ **0.90** (Shakespeare scored as nearer than controls);
+  - the median held-out Shakespeare D is lower than every comparison author's median D.
+
+**V2, author signal at 2,200 tokens:**
+- Each held-out sample is assigned to the nearest profile among the 12 split-half profiles (11 comparison authors plus Shakespeare).
+- **Pass:** macro-averaged accuracy of at least **0.80**.
+
+**V3, de Vere self-recognition:** cannot be tested, because one sample can't be split. Stated as a limitation.
+
+**A2.5 Decision rule (main run, all texts).**
+- Let m_c be the median D over author c's 100 samples, for each comparison author c, and let P be the pooled distribution of all comparison-author samples' D.
+- **H2a-pooled (de Vere closer to Shakespeare than the controls)** is supported only if **both** hold:
+  - D(de Vere) < min over c of m_c;
+  - D(de Vere) < the 5th percentile of P.
+- **H2b-pooled (de Vere no closer than the controls)** is supported if D(de Vere) ≥ the median of {m_c}.
+- Anything in between is **inconclusive**. A failed V1 or V2 makes the whole analysis inconclusive.
+- All outcomes are reported with equal prominence.
+
+**A2.6 Descriptive only (no decisions):**
+- F2 results.
+- D for Vaux, Edwards and *A Lover's Complaint*.
+- De Vere's rank among the 100 × 11 control samples.
+- A chronology split: early comparison authors (Googe, Turberville, Gascoigne, Churchyard, Watson) against late ones (Sidney, Lodge, Daniel, Drayton). Spenser and Greville go in neither group.
+- A de Vere jackknife: 12 leave-one-poem-out samples of 1,900–2,200 tokens each, reported with their lengths. These are shorter than S, so they're not compared formally.
+
+**A2.7 Caveats stated before computing:**
+- There is only one de Vere sample, so there's no estimate of its own variability.
+- De Vere's sample mixes several printers and decades (seven poems come from the 1576 *Paradise*), while control samples mostly come from single books.
+- The genres differ: Shakespeare's sonnets and narrative poems against de Vere's mixed lyrics.
+- Shakespeare's printed poems date from 1593–1609 and de Vere's mostly from 1573–1593.
+- A result in either direction is weak evidence. H2a-pooled would not show common authorship.
+- Prior work to engage: Elliott & Valenza.
+
+**A2.8 Implementation and output.**
+- Code: `src/score/pooled.py`, with unit tests for the sampling rules.
+- Output: `results/stage2_pooled/`.
+- Order: validation is computed and written out **before** the main run. The main run is a separate command, so the validation result can be checked first.
