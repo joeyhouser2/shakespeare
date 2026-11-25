@@ -1,0 +1,468 @@
+candidate_id,source,sig_class,attribution,n_tokens,F1,F2,nearest_author,lead,strong_lead,validation_decoy,paradise,songbook,self_match_removed_from,first_line,witnesses
+cand-A10147_009,TCP A10147 (1578),unsigned,,192,0.96,0.79,Edwards,1,1,0,0,0,,"IN doubtful dreading thoughts, as I gan call to minde,",A10147:A10147_009:-
+cand-A19943_092,TCP A19943 (1602),initials,A. W. (section),130,0.95,0.94,Oxford,1,1,0,0,0,pool,"AS ſoone may water wipe me drie,",A19943:A19943_092:- ; A19945:A19945_223:-
+cand-A11254_059,TCP A11254 (1593),unsigned,,111,0.91,0.54,Oxford,1,0,0,0,0,pool,"WHat elſe is hell, but loſſe of blisfull heauen?",A11254:A11254_059:-
+cand-A21161_063,TCP A21161 (1576),initials,M.H.,209,0.91,0.83,Oxford,1,0,1,1,0,,"SHall rigor raigne where youth hath ron, ſhall fanſie now forſake.",A21161:A21161_063:M.H.
+cand-A21161_078,TCP A21161 (1576),unsigned,,176,0.91,0.84,Vaux,1,0,0,1,0,,"LO heare the man that muſt of loue complaine,",A21161:A21161_078:-
+cand-A19943_087,TCP A19943 (1602),initials,A. W. (section),114,0.9,0.69,Oxford,1,0,0,0,0,pool,"SOme men, they ſay, are Poets borne by kinde,",A19943:A19943_087:- ; A19945:A19945_218:-
+cand-A10147_016,TCP A10147 (1578),unsigned,,270,0.89,0.67,Oxford,1,0,0,0,0,,"SInce néedes ye will mee singe, giue eare vnto the voyce,",A10147:A10147_016:-
+cand-A10147_013,TCP A10147 (1578),unsigned,,218,0.87,0.8,Oxford,1,0,0,0,0,,THe glyttering showes of Floras dames,A10147:A10147_013:-
+cand-A10147_032,TCP A10147 (1578),unsigned,,192,0.87,0.86,Oxford,1,0,0,0,0,,"IF only sight suffise, my hart to loose or binde,",A10147:A10147_032:-
+cand-A19945_307,TCP A19945 (1611),unsigned,,143,0.87,0.49,pool,1,0,0,0,0,,"Her face, her tongue, her wit, so faire, so sweet, so sharpe,",A19945:A19945_307:-
+cand-A21161_020,TCP A21161 (1576),initials,M. T.,158,0.87,0.91,Vaux,1,0,1,1,0,,"THE ſturdy Rocke, for all his ſtrength,",A21161:A21161_020:M. T. ; A21162:A21162_023:M. Y. ; A21166:A21166_021:M. T.
+cand-A21166_099,TCP A21166 (1585),pseudonym,ꝙ Yloop.,238,0.87,0.73,Vaux,1,0,0,1,0,,"I Rage in restlesse youth, and ruines rule my dayes,",A21166:A21166_099:ꝙ Yloop.
+cand-A10147_048,TCP A10147 (1578),unsigned,,223,0.86,0.44,Vaux,1,0,0,0,0,,"I Spake when I ment not, in spéeding to gayne,",A10147:A10147_048:-
+cand-A11254_055,TCP A11254 (1593),unsigned,,119,0.86,0.94,Oxford,1,0,0,0,0,pool,"LIke to a Hermite poore in place obſcure,",A11254:A11254_055:-
+cand-A16273_083,TCP A16273 (1600),initials,M. F G.,113,0.86,0.67,pool,1,0,0,0,0,pool,"LOues Queene long wayting for her true-Loue,",A16273:A16273_083:M. F G.
+cand-A10831_023,TCP A10831 (1584),unsigned,,180,0.85,0.64,Watson,1,0,0,0,0,,"THe famous Prince of Macedon,",A10831:A10831_023:-
+cand-A21161_099,TCP A21161 (1576),pseudonym,ꝙ Yloop.,239,0.85,0.85,Vaux,1,0,1,1,0,,"I Rage in reſtleſſe ruthe, and ruins rule my daies,",A21161:A21161_099:ꝙ Yloop. ; A21162:A21162_097:ꝙ Yloop.
+cand-A20696_song_004,TCP A20696 (1610),unsigned,,252,0.85,0.53,Edwards,1,0,0,0,1,Sidney,Leaue a wretch in whom all woe,A20696:A20696_song_004:- ; A12226:A12226_150:-
+cand-A16731_010,TCP A16731 (1591),unsigned,,120,0.84,0.94,Oxford,1,0,0,0,0,,LIke to an Hermit poore in place obscure.,A16731:A16731_010:-
+cand-A19943_110,TCP A19943 (1602),initials,A. W. (section),251,0.84,0.69,Oxford,1,0,0,0,0,pool,"The ſummer Sun that ſcalds the groūd with heate,",A19943:A19943_110:-
+cand-A19945_333,TCP A19945 (1611),unsigned,,114,0.83,0.37,pool,1,0,0,0,0,,"DEarling of these, of future times the glory,",A19945:A19945_333:-
+cand-A21161_038,TCP A21161 (1576),initials,E. S.,124,0.83,0.66,Gascoigne,1,0,1,1,0,,"THe hidden wees that ſwelleth in my hart,",A21161:A21161_038:E. S.
+cand-A10147_041,TCP A10147 (1578),unsigned,,310,0.82,0.82,Spenser,0,0,0,0,0,,"BEhold you Dames yᵉ raigne in fames, whose lookes mens harts do leade",A10147:A10147_041:-
+cand-A10831_003,TCP A10831 (1584),initials,L. G.,260,0.82,0.84,Oxford,0,0,0,0,0,,"YOu Lordings, cast off your wéedes of wo",A10831:A10831_003:L. G.
+cand-A11254_047,TCP A11254 (1593),unsigned,,244,0.82,0.59,Daniel,0,0,0,0,0,pool,"ALas my hart, mine eie hath wronged thee,",A11254:A11254_047:-
+cand-A11254_071,TCP A11254 (1593),unsigned,,279,0.82,0.76,Daniel,0,0,0,0,0,pool,"SEt me where Phoebus heate, the flowers ſlaieth,",A11254:A11254_071:-
+cand-A16729_002,TCP A16729 (1597),unsigned,,327,0.82,0.94,Oxford,0,0,0,0,0,,"THe restles race that I haue run,",A16729:A16729_002:-
+cand-A16729_005,TCP A16729 (1597),unsigned,,176,0.82,0.69,Oxford,0,0,0,0,0,,"COme follow me you Nymphes,",A16729:A16729_005:-
+cand-A19943_123,TCP A19943 (1602),initials,A. W. (section),202,0.82,0.36,Oxford,0,0,0,0,0,pool,"A New-found match is made of late,",A19943:A19943_123:- ; A19945:A19945_253:-
+cand-A19943_138,TCP A19943 (1602),initials,A. W. (section),177,0.82,0.65,Oxford,0,0,0,0,0,pool,"WHen Venus ſaw Deſire muſt die,",A19943:A19943_138:- ; A19945:A19945_268:-
+cand-A10147_008,TCP A10147 (1578),unsigned,,180,0.81,0.58,Sidney,0,0,0,0,0,,"HOw can the criple get, in running race the game?",A10147:A10147_008:-
+cand-A10147_025,TCP A10147 (1578),unsigned,,457,0.81,0.66,Oxford,0,0,0,0,0,,"IF pitty once may mooue thy hart,",A10147:A10147_025:-
+cand-A19943_127,TCP A19943 (1602),initials,A. W. (section),206,0.81,0.76,pool,0,0,0,0,0,pool,"MIne eies haue ſpent their teares, & now are drie,",A19943:A19943_127:- ; A19945:A19945_257:-
+cand-A16729_028,TCP A16729 (1597),unsigned,,135,0.8,0.54,Watson,0,0,0,0,0,,"MY Mistresse all alone my seruice I did vowe,",A16729:A16729_028:-
+cand-A10147_021,TCP A10147 (1578),unsigned,,180,0.79,0.7,Oxford,0,0,0,0,0,,"AL wealth I must forsake, and pleasures eke forgo,",A10147:A10147_021:-
+cand-A10831_018,TCP A10831 (1584),unsigned,,236,0.79,0.7,Vaux,0,0,0,0,0,,"I Iudge and finde, how God doth minde,",A10831:A10831_018:-
+cand-A16731_025,TCP A16731 (1591),unsigned,,273,0.79,0.8,Oxford,0,0,0,0,0,,"IF heauen and earth were both not fullie bent,",A16731:A16731_025:-
+cand-A16731_048,TCP A16731 (1591),unsigned,,144,0.79,0.52,Shakespeare,0,0,0,0,0,,"HEr face, her tongue, her wit,",A16731:A16731_048:-
+cand-A21161_002,TCP A21161 (1576),unsigned,,159,0.79,0.81,Oxford,0,0,0,1,0,,"BEware of had I wyſt, whoſe fine bringes care and ſmart,",A21161:A21161_002:- ; A21162:A21162_006:-
+cand-A21161_041,TCP A21161 (1576),initials,M. K.,270,0.79,0.55,pool,0,0,1,1,0,,"I Am a Virgine faire and free, and freely doe reioyce,",A21161:A21161_041:M. K.
+cand-A10831_033,TCP A10831 (1584),unsigned,,244,0.78,0.71,pool,0,0,0,0,0,,"THe ofter that I view and sée,",A10831:A10831_033:-
+cand-A11254_074,TCP A11254 (1593),unsigned,,105,0.78,0.52,Drayton,0,0,0,0,0,pool,"CEaſe reſtles thoughts, ſurcharg'd with heauines,",A11254:A11254_074:-
+cand-A19943_179,TCP A19943 (1602),unsigned,,144,0.78,0.5,pool,0,0,0,0,0,pool,"Her Face, her Tongue, her Witt, ſo fayre, ſo ſweet, ſo ſharpe,",A19943:A19943_179:-
+cand-A20696_song_002,TCP A20696 (1610),unsigned,,150,0.78,0.4,Sidney,0,0,0,0,1,,"Whilst she lou'd thee best a while,",A20696:A20696_song_002:-
+cand-A10147_090,TCP A10147 (1578),unsigned,,1089,0.77,0.94,Lodge,0,0,0,0,0,,"THis is the day wherin my irksome life,",A10147:A10147_090:-
+cand-A11254_029,TCP A11254 (1593),unsigned,,3118,0.77,0.78,Drayton,0,0,0,0,0,pool,"THe while we ſleepe, whereof may it proceed,",A11254:A11254_029:-
+cand-A11254_056,TCP A11254 (1593),unsigned,,232,0.77,0.94,Oxford,0,0,0,0,0,pool,"LIke truthles dreames, ſo are my ioyes expired,",A11254:A11254_056:-
+cand-A16729_033,TCP A16729 (1597),unsigned,,192,0.77,0.72,pool,0,0,0,0,0,,"LOue makes me loath my life,",A16729:A16729_033:-
+cand-A19943_120,TCP A19943 (1602),initials,A. W. (section),512,0.77,0.92,pool,0,0,0,0,0,pool,"MY wanton Muſe that whilome wont to ſing,",A19943:A19943_120:- ; A19945:A19945_250:-
+cand-A19945_237,TCP A19945 (1611),initials,A. W. (section),313,0.77,0.33,Oxford,0,0,0,0,0,,THe loue of chāge hath chang'd the world throughout,A19945:A19945_237:-
+cand-A10147_010,TCP A10147 (1578),unsigned,,479,0.76,0.81,Oxford,0,0,0,0,0,,"THe hugie heape of cares, that in this world I finde,",A10147:A10147_010:-
+cand-A10147_092,TCP A10147 (1578),unsigned,,1080,0.76,0.83,Gascoigne,0,0,0,0,0,,"WIth Poets pen, I doo not preace to write,",A10147:A10147_092:-
+cand-A10831_030,TCP A10831 (1584),unsigned,,281,0.76,0.61,Oxford,0,0,0,0,0,,"VVHē as thy eies, yᵉ wretched spies",A10831:A10831_030:-
+cand-A10831_034,TCP A10831 (1584),unsigned,,320,0.76,0.87,Vaux,0,0,0,0,0,,"SIth spitefull spite hath spide her time,",A10831:A10831_034:-
+cand-A16729_021,TCP A16729 (1597),unsigned,,143,0.76,0.64,Drayton,0,0,0,0,0,,"BVrne burne desi, e, while thy poore fuel lasteth,",A16729:A16729_021:-
+cand-A16731_022,TCP A16731 (1591),unsigned,,111,0.76,0.72,Oxford,0,0,0,0,0,,"NEwes from the heauens, all warres are at an end,",A16731:A16731_022:-
+cand-A19943_183,TCP A19943 (1602),unsigned,,123,0.76,0.91,pool,0,0,0,0,0,pool,"BEſt pleas'd ſhee is, when Loue is moſt expreſt,",A19943:A19943_183:-
+cand-A21161_043,TCP A21161 (1576),unsigned,,674,0.76,0.65,Sidney,0,0,0,1,0,,I Sigh? why ſo? for ſorrowe of her ſmart.,A21161:A21161_043:- ; A21162:A21162_046:-
+cand-A21162_047,TCP A21162 (1578),unsigned,,306,0.76,0.84,Vaux,0,0,0,1,0,,"THe faith that fayles, muſt needes bethought vntrue,",A21162:A21162_047:-
+cand-A10147_023,TCP A10147 (1578),unsigned,,245,0.75,0.73,Vaux,0,0,0,0,0,,TO féeble is the thread,A10147:A10147_023:-
+cand-A10147_084,TCP A10147 (1578),initials,T.P.,153,0.75,0.91,Spenser,0,0,0,0,0,,"WHo sées the yll, and séekes to shun the same,",A10147:A10147_084:T.P.
+cand-A19943_103,TCP A19943 (1602),initials,A. W. (section),163,0.75,0.7,pool,0,0,0,0,0,pool,"SMoothe are thy lookes, ſo is the deepeſt ſtreame:",A19943:A19943_103:-
+cand-A19943_182,TCP A19943 (1602),pseudonym,Ignoto.,189,0.75,0.34,pool,0,0,0,0,0,pool,"LOue is the linke, the knot, the bande of vnitie,",A19943:A19943_182:Ignoto. ; A19945:A19945_309:Ignoto.
+cand-A19945_252,TCP A19945 (1611),initials,A. W. (section),215,0.75,0.75,Lodge,0,0,0,0,0,,"MY heauy heart with griefe and hope torment,",A19945:A19945_252:-
+cand-A19945_303,TCP A19945 (1611),initials,W. R.,236,0.75,0.49,Greville,0,0,0,0,0,,"COnceit begotten by the eyes,",A19945:A19945_303:W. R.
+cand-A10147_005,TCP A10147 (1578),unsigned,,1595,0.74,0.44,Vaux,0,0,0,0,0,,TWice hath my quaking hand withdrawen this pen away,A10147:A10147_005:-
+cand-A10147_028,TCP A10147 (1578),unsigned,,222,0.74,0.73,Edwards,0,0,0,0,0,,"MY ioyful dayes bée past,",A10147:A10147_028:-
+cand-A10147_066,TCP A10147 (1578),unsigned,,144,0.74,0.41,Daniel,0,0,0,0,0,,"MY fancy féedes, vpon the sugred gaule,",A10147:A10147_066:-
+cand-A10147_074,TCP A10147 (1578),unsigned,,688,0.74,0.53,Sidney,0,0,0,0,0,,"Willow willow willow, singe all of gréene willow,",A10147:A10147_074:-
+cand-A11254_070,TCP A11254 (1593),unsigned,,410,0.74,0.62,Daniel,0,0,0,0,0,pool,"DEclare O minde, from fond deſires excluded,",A11254:A11254_070:-
+cand-A19943_175,TCP A19943 (1602),initials,W. R.,236,0.74,0.66,Greville,0,0,0,0,0,pool,"COnceipt begotten by the eyes,",A19943:A19943_175:W. R.
+cand-A19945_056,TCP A19945 (1611),unsigned,,175,0.74,0.31,pool,0,0,0,0,0,,"SWeet, I doe not pardon crau•…,",A19945:A19945_056:-
+cand-A19945_063,TCP A19945 (1611),unsigned,,104,0.74,0.32,Edwards,0,0,0,0,0,,"The ioyfull Sunne, whom cloudy winters spight,",A19945:A19945_063:-
+cand-A19945_215,TCP A19945 (1611),initials,A. W. (section),156,0.74,0.59,Watson,0,0,0,0,0,,"I Curse the time, where in these lips of mine,",A19945:A19945_215:-
+cand-A21162_018,TCP A21162 (1578),initials,R. D.,248,0.74,0.68,Vaux,0,0,0,1,0,,"THE wrong is great, the payne aboue my power,",A21162:A21162_018:R. D. ; A21166:A21166_016:R. D.
+cand-A21166_005,TCP A21166 (1585),unsigned,,159,0.74,0.91,Oxford,0,0,0,1,0,,"BEware of had I wist, whose fine bringes care and smart,",A21166:A21166_005:-
+cand-A10147_015,TCP A10147 (1578),unsigned,,414,0.73,0.34,Turberville,0,0,0,0,0,,"WOuld god I had neuer séen,",A10147:A10147_015:-
+cand-A10147_077,TCP A10147 (1578),unsigned,,170,0.73,0.47,pool,0,0,0,0,0,,"DEare Lady deckt with cumlynesse,",A10147:A10147_077:-
+cand-A10831_026,TCP A10831 (1584),unsigned,,202,0.73,0.45,Oxford,0,0,0,0,0,,"YOu Ladies falsly déemd, of anie fault or crime:",A10831:A10831_026:-
+cand-A10831_032,TCP A10831 (1584),unsigned,,534,0.73,0.78,Vaux,0,0,0,0,0,,"I Waile in wo, I plunge in pain,",A10831:A10831_032:-
+cand-A11254_076,TCP A11254 (1593),unsigned,,321,0.73,0.73,pool,0,0,0,0,0,pool,"SEeing thoſe eies, that with the Sun contendeth,",A11254:A11254_076:-
+cand-A19945_325,TCP A19945 (1611),unsigned,,316,0.73,0.84,Oxford,0,0,0,0,0,,"Death is my doome, awarded by disdaine,",A19945:A19945_325:-
+cand-A16729_024,TCP A16729 (1597),unsigned,,166,0.72,0.68,pool,0,0,0,0,0,,"TO loue, alas, what may I call thy loue,",A16729:A16729_024:-
+cand-A16731_024,TCP A16731 (1591),unsigned,,207,0.72,0.9,Sidney,0,0,0,0,0,,"IF euer man did liue in Fortunes scorne,",A16731:A16731_024:-
+cand-A19943_101,TCP A19943 (1602),initials,A. W. (section),189,0.72,0.74,Greville,0,0,0,0,0,pool,"DEſire and Hope haue mou'd my minde,",A19943:A19943_101:- ; A19945:A19945_231:-
+cand-A19945_236,TCP A19945 (1611),initials,A. W. (section),116,0.72,0.71,Watson,0,0,0,0,0,,"WRong'd by desire I yeelded to disdaine,",A19945:A19945_236:-
+cand-A21166_046,TCP A21166 (1585),unsigned,,625,0.72,0.73,Sidney,0,0,0,1,0,,"I Sigh, why so? for sorrow of her smart,",A21166:A21166_046:-
+cand-A16729_032,TCP A16729 (1597),unsigned,,151,0.71,0.45,Watson,0,0,0,0,0,,"NO faith on earth, sweet fancie then adu•,",A16729:A16729_032:-
+cand-A16731_006,TCP A16731 (1591),unsigned,,306,0.71,0.64,Vaux,0,0,0,0,0,,"THe prettie Turtle-doue, that with no little mone,",A16731:A16731_006:-
+cand-A19943_100,TCP A19943 (1602),initials,A. W. (section),186,0.71,0.51,Vaux,0,0,0,0,0,pool,"I Smile ſometimes amids my greateſt griefe,",A19943:A19943_100:- ; A19945:A19945_230:-
+cand-A19943_108,TCP A19943 (1602),initials,A. W. (section),106,0.71,0.5,Oxford,0,0,0,0,0,pool,"VNhappy Eies, the cauſers of my paine,",A19943:A19943_108:-
+cand-A19943_166,TCP A19943 (1602),unsigned,,117,0.71,0.53,pool,0,0,0,0,0,pool,"IF you would know the Loue which you I beare,",A19943:A19943_166:- ; A19945:A19945_295:-
+cand-A10147_026,TCP A10147 (1578),unsigned,,358,0.7,0.74,pool,0,0,0,0,0,,IF euer wight had cause to mone,A10147:A10147_026:-
+cand-A10147_071,TCP A10147 (1578),unsigned,,197,0.7,0.72,Googe,0,0,0,0,0,,"THe greedy man, whose hart with hate doth swell,",A10147:A10147_071:-
+cand-A16731_016,TCP A16731 (1591),unsigned,,113,0.7,0.95,Vaux,0,0,0,0,0,,"LEt me go seeke some solitarie place,",A16731:A16731_016:-
+cand-A20689_song_017,TCP A20689 (1597),unsigned,,176,0.7,0.97,pool,0,0,0,0,1,,"Come againe that I may cease to mourne,",A20689:A20689_song_017:-
+cand-A16729_041,TCP A16729 (1597),unsigned,,113,0.69,0.97,Vaux,0,0,0,0,0,,"Let me goe seeke some solitarie place,",A16729:A16729_041:-
+cand-A21161_023,TCP A21161 (1576),unsigned,,172,0.69,0.84,Oxford,0,0,0,1,0,,"WHY art thou bound, and maiſt goe free,",A21161:A21161_023:-
+cand-A21161_045,TCP A21161 (1576),unsigned,,307,0.69,0.89,Vaux,0,0,0,1,0,,"THe faithe that failes, muſt nedes be thought vntrue,",A21161:A21161_045:-
+cand-A11254_051,TCP A11254 (1593),unsigned,,345,0.68,0.78,pool,0,0,0,0,0,pool,"FEede ſtill thy ſelfe, thou fondling with beliefe,",A11254:A11254_051:-
+cand-A11254_054,TCP A11254 (1593),unsigned,,152,0.68,0.73,Spenser,0,0,0,0,0,pool,"PRaiſd be Dianas faire and harmles light,",A11254:A11254_054:-
+cand-A11254_069,TCP A11254 (1593),unsigned,,276,0.68,0.81,Drayton,0,0,0,0,0,pool,"THe gentle ſeaſon of the yeere,",A11254:A11254_069:-
+cand-A16273_133,TCP A16273 (1600),initials,I. G.,485,0.68,0.89,Daniel,0,0,0,0,0,pool,"SHeepheard, saw you not",A16273:A16273_133:I. G.
+cand-A16731_035,TCP A16731 (1591),unsigned,,245,0.68,0.66,Watson,0,0,0,0,0,,"OH sweet Diana that dwelst amōg the nimphs,",A16731:A16731_035:-
+cand-A16731_049,TCP A16731 (1591),unsigned,,173,0.68,0.87,Watson,0,0,0,0,0,,"WHo knowes his cause of griefe,",A16731:A16731_049:-
+cand-A19943_006,TCP A19943 (1602),unsigned,,394,0.68,0.66,Turberville,0,0,0,0,0,pool,"•T chaunſt of late a Shepheards ſwaine,",A19943:A19943_006:-
+cand-A19945_053,TCP A19945 (1611),unsigned,,394,0.68,0.64,Spenser,0,0,0,0,0,,IT chanst of late a Shepherds swaine,A19945:A19945_053:-
+cand-A20689_song_018,TCP A20689 (1597),unsigned,,101,0.68,0.3,Turberville,0,0,0,0,1,,"His helmet now shall make a hiue for bees,",A20689:A20689_song_018:-
+cand-A10147_019,TCP A10147 (1578),unsigned,,242,0.67,0.75,Vaux,0,0,0,0,0,,WHen shall reliefe release my wo?,A10147:A10147_019:-
+cand-A10831_002,TCP A10831 (1584),unsigned,,675,0.67,0.53,Vaux,0,0,0,0,0,,"A Nosegaie lacking flowers fresh, to you now I do send.",A10831:A10831_002:-
+cand-A16273_006,TCP A16273 (1600),initials,E. B.,214,0.67,0.51,Spenser,0,0,0,0,0,pool,"AS withereth the Primrose by the riuer,",A16273:A16273_006:E. B.
+cand-A16273_093,TCP A16273 (1600),pseudonym,Ignoto.,150,0.67,0.71,Oxford,0,0,0,0,0,pool,"HEy downe a downe did Dian sing,",A16273:A16273_093:Ignoto.
+cand-A16273_137,TCP A16273 (1600),unsigned,,106,0.67,0.35,Spenser,0,0,0,0,0,pool,ZEphirus brings the time sweetly senteth,A16273:A16273_137:-
+cand-A16729_006,TCP A16729 (1597),unsigned,,199,0.67,0.38,pool,0,0,0,0,0,,"ACcord your notes vnto my wofull songs,",A16729:A16729_006:-
+cand-A16729_022,TCP A16729 (1597),unsigned,,464,0.67,0.64,Churchyard,0,0,0,0,0,,A Court was lately kept in secret of conceit.,A16729:A16729_022:-
+cand-A16731_042,TCP A16731 (1591),unsigned,,157,0.67,0.74,Vaux,0,0,0,0,0,,"I Seeke the thing that I do dayly see,",A16731:A16731_042:-
+cand-A19943_122,TCP A19943 (1602),initials,A. W. (section),215,0.67,0.62,Lodge,0,0,0,0,0,pool,"MY heauy Hart which Greefe and hope torment,",A19943:A19943_122:-
+cand-A21161_015,TCP A21161 (1576),initials,R. D.,248,0.67,0.76,Vaux,0,0,1,1,0,,"THE wrong is great, the paine aboue my power,",A21161:A21161_015:R. D.
+cand-A10147_042,TCP A10147 (1578),unsigned,,229,0.66,0.9,Vaux,0,0,0,0,0,,"THe heat is past that did mee fret,",A10147:A10147_042:-
+cand-A10147_061,TCP A10147 (1578),unsigned,,192,0.66,0.66,Lodge,0,0,0,0,0,,"WIth spéedy winges, my fethered woes pursues,",A10147:A10147_061:-
+cand-A10147_065,TCP A10147 (1578),unsigned,,153,0.66,0.83,Oxford,0,0,0,0,0,,"THe bitter swéete, that straynes my yéelded harte,",A10147:A10147_065:-
+cand-A10147_083,TCP A10147 (1578),unsigned,,539,0.66,0.53,Vaux,0,0,0,0,0,,"THe wealthy chuffe, for all his wealth,",A10147:A10147_083:-
+cand-A11254_060,TCP A11254 (1593),unsigned,,150,0.66,0.45,Edwards,0,0,0,0,0,pool,"WOuld I were chaung'd into that golden ſhowre,",A11254:A11254_060:-
+cand-A19943_126,TCP A19943 (1602),initials,A. W. (section),174,0.66,0.89,Spenser,0,0,0,0,0,pool,"REſt, good my Muſe, and giue me leaue to reſt,",A19943:A19943_126:- ; A19945:A19945_256:-
+cand-A19943_128,TCP A19943 (1602),initials,A. W. (section),163,0.66,0.35,pool,0,0,0,0,0,pool,"BReake heauy hart, and rid mee of this paine,",A19943:A19943_128:-
+cand-A19943_146,TCP A19943 (1602),pseudonym,ANOMOS,198,0.66,0.74,Greville,0,0,0,0,0,pool,"COmpare the Bramble with the Cedar tree,",A19943:A19943_146:ANOMOS ; A19945:A19945_275:-
+cand-A21161_027,TCP A21161 (1576),initials,F. M.,204,0.66,0.78,Vaux,0,0,1,1,0,,"FOrlorne in filthy froward fate, wherein a thouſand cares I finde,",A21161:A21161_027:F. M. ; A21162:A21162_030:F. M. ; A21166:A21166_030:F. M.
+cand-A21162_075,TCP A21162 (1578),initials,E. S.,288,0.66,0.66,Vaux,0,0,0,1,0,,"WHat death maie bee, compared to Loue?",A21162:A21162_075:E. S.
+cand-A10147_034,TCP A10147 (1578),unsigned,,168,0.65,0.39,Edwards,0,0,0,0,0,,"O Heauy hart whose harmes be hid,",A10147:A10147_034:-
+cand-A10831_021,TCP A10831 (1584),unsigned,,361,0.65,0.75,pool,0,0,0,0,0,,"THough wisdom wold I should refrain,",A10831:A10831_021:-
+cand-A11254_072,TCP A11254 (1593),unsigned,,122,0.65,0.47,Drayton,0,0,0,0,0,pool,"NArciſſus neuer by deſire diſtreſſed,",A11254:A11254_072:-
+cand-A16273_075,TCP A16273 (1600),unsigned,,152,0.65,0.65,Shakespeare,0,0,0,0,0,pool,"PRaysed be Dianaes faire and harmelesse light,",A16273:A16273_075:-
+cand-A16729_017,TCP A16729 (1597),unsigned,,141,0.65,0.79,Watson,0,0,0,0,0,,"K KNowledge doth much in ••re of most content,",A16729:A16729_017:-
+cand-A16729_039,TCP A16729 (1597),unsigned,,158,0.65,0.81,Daniel,0,0,0,0,0,,"THose eyes that hold the hand of euerie heart,",A16729:A16729_039:-
+cand-A16731_033,TCP A16731 (1591),unsigned,,193,0.65,0.67,Vaux,0,0,0,0,0,,"COme solemne Muse and helpe me •…ing,",A16731:A16731_033:-
+cand-A16731_051,TCP A16731 (1591),unsigned,,145,0.65,0.69,Edwards,0,0,0,0,0,,"LAid in my restlesse bed,",A16731:A16731_051:-
+cand-A19943_012,TCP A19943 (1602),initials,,486,0.65,0.79,Watson,0,0,0,0,0,pool,"PERIN, arreed what new miſchance betide,",A19943:A19943_012:- ; A19945:A19945_074:A. W.
+cand-A21166_047,TCP A21166 (1585),unsigned,,306,0.65,0.8,Vaux,0,0,0,1,0,,"THe fayth that fayles, must needes be thought vntrue,",A21166:A21166_047:-
+cand-A10147_033,TCP A10147 (1578),unsigned,,293,0.64,0.45,Vaux,0,0,0,0,0,,"SInce thou vniust, hast caught a lust,",A10147:A10147_033:-
+cand-A10147_085,TCP A10147 (1578),initials,T.P.,200,0.64,0.62,Lodge,0,0,0,0,0,,"LO here the state of euery mortall wight,",A10147:A10147_085:T.P.
+cand-A10831_025,TCP A10831 (1584),unsigned,,144,0.64,0.86,pool,0,0,0,0,0,,"THe 〈◊〉 sparkes of th•…se two eyes,",A10831:A10831_025:-
+cand-A11254_002,TCP A11254 (1593),unsigned,,1464,0.64,0.87,Churchyard,0,0,0,0,0,pool,"AS then, no winde at all there blew,",A11254:A11254_002:- ; A16884:A16884_233:-
+cand-A11254_063,TCP A11254 (1593),unsigned,,248,0.64,0.69,Oxford,0,0,0,0,0,pool,"WHo liſt to heare the ſum of ſorrowes ſtate,",A11254:A11254_063:-
+cand-A16273_056,TCP A16273 (1600),pseudonym,Ignoto.,213,0.64,0.59,pool,0,0,0,0,0,pool,"SHeepheard, what's Loue, I pray thee tell?",A16273:A16273_056:Ignoto.
+cand-A16729_014,TCP A16729 (1597),unsigned,,109,0.64,0.76,Edwards,0,0,0,0,0,,"T THe work of worth that Nature finely fram'd,",A16729:A16729_014:-
+cand-A16729_023,TCP A16729 (1597),unsigned,,1836,0.64,0.52,Googe,0,0,0,0,0,,"FRom worldly cares and wanton loues conceit,",A16729:A16729_023:-
+cand-A16731_021,TCP A16731 (1591),unsigned,,115,0.64,0.69,Greville,0,0,0,0,0,,"TRuth shewes her selfe in secret of her trust,",A16731:A16731_021:-
+cand-A19943_104,TCP A19943 (1602),initials,A. W. (section),146,0.64,0.49,Lodge,0,0,0,0,0,pool,"HOw, or where haue I loſt my ſelfe? vnhappy!",A19943:A19943_104:- ; A19945:A19945_234:-
+cand-A19945_310,TCP A19945 (1611),unsigned,,123,0.64,0.84,Watson,0,0,0,0,0,,"BEst pleas'd she is, when loue is most exprest,",A19945:A19945_310:-
+cand-A19945_318,TCP A19945 (1611),unsigned,,116,0.64,0.52,Lodge,0,0,0,0,0,,"MIne eye with all the deadly sinnes is fraught,",A19945:A19945_318:-
+cand-A21161_055,TCP A21161 (1576),unsigned,,735,0.64,0.66,Vaux,0,0,0,1,0,,"IF yᵗ eche flower, the godds haue framed, are ſhapt by ſacred ſkill",A21161:A21161_055:-
+cand-A21162_057,TCP A21162 (1578),unsigned,,736,0.64,0.72,Vaux,0,0,0,1,0,,"IF that eche flower, the Gods haue framed, or ſhapt by ſacred ſkill,",A21162:A21162_057:- ; A21166:A21166_057:-
+cand-A10147_007,TCP A10147 (1578),unsigned,,1669,0.63,0.68,Vaux,0,0,0,0,0,,"EUen hée that whilome was: thy faithful fréend most iust,",A10147:A10147_007:-
+cand-A10831_019,TCP A10831 (1584),unsigned,,627,0.63,0.9,Greville,0,0,0,0,0,,YE louing wormes come learne of me,A10831:A10831_019:-
+cand-A10831_024,TCP A10831 (1584),unsigned,,171,0.63,0.64,Turberville,0,0,0,0,0,,"SUch 〈◊〉 from thy loue vp•… yéelde,",A10831:A10831_024:-
+cand-A19943_130,TCP A19943 (1602),initials,A. W. (section),129,0.63,0.61,Watson,0,0,0,0,0,pool,"TWixt heate and colde, twixt death and life,",A19943:A19943_130:- ; A19945:A19945_260:-
+cand-A19945_322,TCP A19945 (1611),unsigned,,272,0.63,0.72,pool,0,0,0,0,0,,"NOw what is loue, I pray thee tell?",A19945:A19945_322:-
+cand-A20692_song_019,TCP A20692 (1600),unsigned,,123,0.63,0.67,pool,0,0,0,0,1,,"2 Silly wretch forsake these dreames, of a vaine desire,",A20692:A20692_song_019:-
+cand-A10147_022,TCP A10147 (1578),unsigned,,409,0.62,0.8,Watson,0,0,0,0,0,,YYou graues of grisly ghosts,A10147:A10147_022:-
+cand-A16729_001,TCP A16729 (1597),unsigned,,566,0.62,0.54,Watson,0,0,0,0,0,,"AD•e mine onely ioy whose absence breedes my smart,",A16729:A16729_001:-
+cand-A16731_038,TCP A16731 (1591),unsigned,,154,0.62,0.56,Googe,0,0,0,0,0,,"DIo•…enes was tearmed but a Dogge,",A16731:A16731_038:-
+cand-A16731_056,TCP A16731 (1591),unsigned,,262,0.62,0.55,Drayton,0,0,0,0,0,,"MY Hope farewell, leaue off thy lingring stay,",A16731:A16731_056:-
+cand-A19943_009,TCP A19943 (1602),unsigned,,177,0.62,0.41,pool,0,0,0,0,0,pool,"SVVEETE, I doe not pardon craue,",A19943:A19943_009:-
+cand-A19943_099,TCP A19943 (1602),initials,A. W. (section),127,0.62,0.67,Sidney,0,0,0,0,0,pool,"OFt haue I mus'd the cauſe to finde,",A19943:A19943_099:- ; A19945:A19945_229:-
+cand-A19943_118,TCP A19943 (1602),initials,A. W. (section),126,0.62,0.73,pool,0,0,0,0,0,pool,"DIſdaine that ſo doth fill mee,",A19943:A19943_118:- ; A19945:A19945_248:-
+cand-A19943_125,TCP A19943 (1602),initials,A. W. (section),176,0.62,0.33,Sidney,0,0,0,0,0,pool,"THe golden Sunne that brings the day,",A19943:A19943_125:- ; A19945:A19945_255:-
+cand-A19945_233,TCP A19945 (1611),initials,A. W. (section),164,0.62,0.66,pool,0,0,0,0,0,,"SMooth are thy lookes, so is thy deepest streame,",A19945:A19945_233:-
+cand-A19945_240,TCP A19945 (1611),initials,A. W. (section),252,0.62,0.62,Drayton,0,0,0,0,0,,"THe sommer Sun that scalds the ground with heat,",A19945:A19945_240:-
+cand-A20693_song_007,TCP A20693 (1603),unsigned,,130,0.62,0.45,pool,0,0,0,0,1,,But could thy firy poysned dart,A20693:A20693_song_007:-
+cand-A11254_077,TCP A11254 (1593),unsigned,,539,0.61,0.63,Vaux,0,0,0,0,0,pool,"DIuide my times, and rate my wretched howres,",A11254:A11254_077:-
+cand-A16273_114,TCP A16273 (1600),unsigned,,172,0.61,0.49,pool,0,0,0,0,0,pool,"THough Amarillis daunce in greene,",A16273:A16273_114:-
+cand-A16729_025,TCP A16729 (1597),unsigned,,155,0.61,0.65,Sidney,0,0,0,0,0,,COme Caron come with speede:,A16729:A16729_025:-
+cand-A16731_020,TCP A16731 (1591),unsigned,,369,0.61,0.6,Greville,0,0,0,0,0,,"POets lay downe your pen•…es, let •…ancie leaue to •…aine,",A16731:A16731_020:-
+cand-A19943_013,TCP A19943 (1602),initials,A. W.,1042,0.61,0.37,Lodge,0,0,0,0,0,pool,YEe Nimphs that bathe your bodies in this ſpring:,A19943:A19943_013:A. W.
+cand-A19945_143,TCP A19945 (1611),unsigned,,299,0.61,0.29,Lodge,0,0,0,0,0,,"Fountaine of blisse, yet well-spring of my woe,",A19945:A19945_143:-
+cand-A19945_258,TCP A19945 (1611),initials,A. W. (section),165,0.61,0.36,Lodge,0,0,0,0,0,,"BReake heauie heart, and rid me of this paine,",A19945:A19945_258:-
+cand-A10147_011,TCP A10147 (1578),unsigned,,215,0.6,0.63,Daniel,0,0,0,0,0,,"DEsire hath driuen from mée my will,",A10147:A10147_011:-
+cand-A10147_020,TCP A10147 (1578),unsigned,,195,0.6,0.75,pool,0,0,0,0,0,,"LIke as the Hauke is led by lure, to draw from trée to trée,",A10147:A10147_020:-
+cand-A10831_035,TCP A10831 (1584),unsigned,,244,0.6,0.69,Edwards,0,0,0,0,0,,"THe soaring hawk from fist that flies, her Falconer doth constraine:",A10831:A10831_035:-
+cand-A11254_049,TCP A11254 (1593),unsigned,,525,0.6,0.77,Vaux,0,0,0,0,0,pool,"COm yonglings com, that ſeem to make ſuch mone,",A11254:A11254_049:-
+cand-A11254_062,TCP A11254 (1593),unsigned,,158,0.6,0.88,Daniel,0,0,0,0,0,pool,"THoſe eies that holds the hand of euery hart,",A11254:A11254_062:-
+cand-A16731_001,TCP A16731 (1591),unsigned,,3113,0.6,0.55,Vaux,0,0,0,0,0,,"AMong the woes of those vnhappie wights,",A16731:A16731_001:-
+cand-A19943_114,TCP A19943 (1602),initials,A. W. (section),145,0.6,0.83,Lodge,0,0,0,0,0,pool,"CLoſe your lids, vnhappy Eyes,",A19943:A19943_114:- ; A19945:A19945_244:-
+cand-A19945_197,TCP A19945 (1611),unsigned,,141,0.6,0.63,Sidney,0,0,0,0,0,,But if (these reasons being vainely spent),A19945:A19945_197:-
+cand-A21161_074,TCP A21161 (1576),initials,E. S.,288,0.6,0.7,Vaux,0,0,1,1,0,,"WHat death maie be, compared to loue?",A21161:A21161_074:E. S.
+cand-A10147_036,TCP A10147 (1578),unsigned,,121,0.59,0.64,Turberville,0,0,0,0,0,,"I Would I were Acteon, whom Diana did disguise,",A10147:A10147_036:-
+cand-A16273_123,TCP A16273 (1600),unsigned,,121,0.59,0.39,pool,0,0,0,0,0,pool,"BVrst foorth my teares, assist my forward greefe,",A16273:A16273_123:-
+cand-A19943_106,TCP A19943 (1602),initials,A. W. (section),116,0.59,0.79,Oxford,0,0,0,0,0,pool,"WRongde by Deſire I yeelded to diſdaine,",A19943:A19943_106:-
+cand-A19943_132,TCP A19943 (1602),initials,A. W. (section),104,0.59,0.52,Oxford,0,0,0,0,0,pool,"YE walles that ſhut me vp from ſight of men,",A19943:A19943_132:- ; A19945:A19945_262:-
+cand-A19945_146,TCP A19945 (1611),unsigned,,238,0.59,0.36,Gascoigne,0,0,0,0,0,,"I must confesse (vnkind) when I consider,",A19945:A19945_146:-
+cand-A19945_247,TCP A19945 (1611),initials,A. W. (section),200,0.59,0.39,Shakespeare,0,0,0,0,0,,"FAire is thy face, and that thou knowest too well,",A19945:A19945_247:-
+cand-A10147_006,TCP A10147 (1578),unsigned,,1332,0.58,0.76,Vaux,0,0,0,0,0,,"TO stay thy musinge minde: hee did this pistle frame,",A10147:A10147_006:-
+cand-A11254_006,TCP A11254 (1593),unsigned,,154,0.58,0.5,Watson,0,0,0,0,0,pool,"SWeete fellow whom I ſware, ſuch ſure affected loue,",A11254:A11254_006:-
+cand-A19943_111,TCP A19943 (1602),initials,A. W. (section),105,0.58,0.58,pool,0,0,0,0,0,pool,WHen will the fountaine of my Teares be drie?,A19943:A19943_111:- ; A19945:A19945_241:-
+cand-A19943_192,TCP A19943 (1602),initials,H. C.,118,0.58,0.76,Sidney,0,0,0,0,0,pool,"YEe Siſter-Muſes, doe not yee repine,",A19943:A19943_192:H. C.
+cand-A19945_208,TCP A19945 (1611),initials,A. W. (section),145,0.58,0.63,Watson,0,0,0,0,0,Watson,"IN that I thirst for such a Goddesse grace,",A19945:A19945_208:- ; A14822:A14822_070:-
+cand-A19945_246,TCP A19945 (1611),initials,A. W. (section),302,0.58,0.65,Vaux,0,0,0,0,0,,"IF loue be nothing but an idle name,",A19945:A19945_246:-
+cand-A10147_027,TCP A10147 (1578),unsigned,,131,0.57,0.61,Vaux,0,0,0,0,0,,WHy askest thou the cause,A10147:A10147_027:-
+cand-A10147_075,TCP A10147 (1578),unsigned,,180,0.57,0.38,Gascoigne,0,0,0,0,0,,"NOw cease to sing your Syren songes, I leaue ech braue delight",A10147:A10147_075:-
+cand-A10831_031,TCP A10831 (1584),unsigned,,362,0.57,0.47,Gascoigne,0,0,0,0,0,,"SHall distance part our loue,",A10831:A10831_031:-
+cand-A16273_037,TCP A16273 (1600),pseudonym,Ignoto.,253,0.57,0.67,Greville,0,0,0,0,0,pool,"MY Flocks feede not, my Ewes breede not,",A16273:A16273_037:Ignoto.
+cand-A16729_045,TCP A16729 (1597),unsigned,,367,0.57,0.64,Spenser,0,0,0,0,0,,"POets lay downe your pennes, let fancie leaue to faine,",A16729:A16729_045:-
+cand-A16731_014,TCP A16731 (1591),unsigned,,157,0.57,0.9,Daniel,0,0,0,0,0,,"THose eies that hold the hand of euery heare,",A16731:A16731_014:-
+cand-A16731_045,TCP A16731 (1591),unsigned,,149,0.57,0.37,Watson,0,0,0,0,0,,"VVHo deales with fire may burne his fingers ends,",A16731:A16731_045:-
+cand-A19943_116,TCP A19943 (1602),initials,A. W. (section),299,0.57,0.65,Vaux,0,0,0,0,0,pool,"IF Loue bee nothing but an idle name,",A19943:A19943_116:-
+cand-A19943_124,TCP A19943 (1602),initials,A. W. (section),152,0.57,0.66,Vaux,0,0,0,0,0,pool,"•F Loue be life, I long to die,",A19943:A19943_124:-
+cand-A19943_191,TCP A19943 (1602),initials,H. C.,116,0.57,0.52,Lodge,0,0,0,0,0,pool,"MIne eie with all the deadly ſinnes is fraught,",A19943:A19943_191:H. C.
+cand-A19945_323,TCP A19945 (1611),unsigned,,153,0.57,0.63,Lodge,0,0,0,0,0,,"IF wrong by force had Iustice put to fligh•…,",A19945:A19945_323:-
+cand-A10147_004,TCP A10147 (1578),unsigned,,710,0.56,0.63,pool,0,0,0,0,0,,"HEalth I thée send, if hée may giue, yᵗ which himself doth misse:",A10147:A10147_004:-
+cand-A10147_018,TCP A10147 (1578),unsigned,,448,0.56,0.38,Gascoigne,0,0,0,0,0,,"PAsse forth in doulfull dumpes my verse,",A10147:A10147_018:-
+cand-A10147_044,TCP A10147 (1578),unsigned,,144,0.56,0.79,Sidney,0,0,0,0,0,,"O Cruell hart with falsehood infecte, of force I must complayne,",A10147:A10147_044:-
+cand-A10147_088,TCP A10147 (1578),initials,T. P.,137,0.56,0.46,Turberville,0,0,0,0,0,,"FArewell my fréend, whom fortune forste to fly,",A10147:A10147_088:T. P.
+cand-A11254_030,TCP A11254 (1593),unsigned,,608,0.56,0.67,pool,0,0,0,0,0,pool,WEepe you my lines for ſorrow whilſt I write,A11254:A11254_030:-
+cand-A11254_080,TCP A11254 (1593),unsigned,,157,0.56,0.82,pool,0,0,0,0,0,pool,"SHort is my reſt, whoſe toile is ouerlong,",A11254:A11254_080:-
+cand-A16729_008,TCP A16729 (1597),unsigned,,154,0.56,0.53,Gascoigne,0,0,0,0,0,,"THe time was once that I haue li•ed free,",A16729:A16729_008:-
+cand-A16731_026,TCP A16731 (1591),unsigned,,222,0.56,0.4,Churchyard,0,0,0,0,0,,"WHen authors write god knowes what thing is true,",A16731:A16731_026:-
+cand-A16731_046,TCP A16731 (1591),unsigned,,132,0.56,0.39,Daniel,0,0,0,0,0,,"SWeet birds that sit and sing amid the shadie vallies,",A16731:A16731_046:-
+cand-A19943_133,TCP A19943 (1602),initials,A. W. (section),122,0.56,0.41,pool,0,0,0,0,0,pool,"THough naked Trees ſeeme dead to ſight,",A19943:A19943_133:- ; A19945:A19945_263:-
+cand-A19945_238,TCP A19945 (1611),initials,A. W. (section),106,0.56,0.59,Watson,0,0,0,0,0,,"VNhappy eyes the causers of my paine,",A19945:A19945_238:-
+cand-A20689_song_011,TCP A20689 (1597),unsigned,,105,0.56,0.28,pool,0,0,0,0,1,,"Come awaie come sweet loue,",A20689:A20689_song_011:-
+cand-A10147_081,TCP A10147 (1578),initials,T.P.,258,0.55,0.85,Vaux,0,0,0,0,0,,"SSall clammy clay, shrowd such a gallant gloze,",A10147:A10147_081:T.P.
+cand-A10831_012,TCP A10831 (1584),unsigned,,773,0.54,0.78,Churchyard,0,0,0,0,0,,"DIana and her darlings deare,",A10831:A10831_012:-
+cand-A16273_134,TCP A16273 (1600),initials,H. C.,659,0.54,0.55,Shakespeare,0,0,0,0,0,pool,"VEnus faire did ride,",A16273:A16273_134:H. C.
+cand-A16731_041,TCP A16731 (1591),unsigned,,270,0.54,0.38,Turberville,0,0,0,0,0,,"I Will forget that ere I sawe thy face,",A16731:A16731_041:-
+cand-A19943_089,TCP A19943 (1602),initials,A. W. (section),118,0.54,0.52,Lodge,0,0,0,0,0,pool,"THus am I free from lawes that other binde,",A19943:A19943_089:- ; A19945:A19945_220:-
+cand-A19943_154,TCP A19943 (1602),initials,A. W. (section),215,0.54,0.56,Vaux,0,0,0,0,0,pool,"O Trifling toyes that toſſe the braines,",A19943:A19943_154:- ; A19945:A19945_283:-
+cand-A19945_302,TCP A19945 (1611),initials,H. W.,150,0.54,0.18,Drayton,0,0,0,0,0,,"O Faithlesse world, and thy most faithlesse part▪",A19945:A19945_302:H. W.
+cand-A19945_308,TCP A19945 (1611),unsigned,,124,0.54,0.1,Shakespeare,0,0,0,0,0,,ONely (sweet Loue) affoord me but thy heart,A19945:A19945_308:-
+cand-A19945_315,TCP A19945 (1611),initials,I. S.,109,0.54,0.63,Greville,0,0,0,0,0,,"THe Poets faine that when the world began,",A19945:A19945_315:I. S.
+cand-A20696_song_008,TCP A20696 (1610),unsigned,,157,0.54,0.56,Sidney,0,0,0,0,1,,But loe a glorious light from his darke rest,A20696:A20696_song_008:-
+cand-A16729_015,TCP A16729 (1597),unsigned,,115,0.53,0.54,Vaux,0,0,0,0,0,,"M MVses attending all on P•llas traine,",A16729:A16729_015:-
+cand-A19945_147,TCP A19945 (1611),unsigned,,296,0.53,0.45,Lodge,0,0,0,0,0,,"But when againe my cursed memorie,",A19945:A19945_147:-
+cand-A20689_song_001,TCP A20689 (1597),unsigned,,113,0.53,0.66,Daniel,0,0,0,0,1,,"But what can staie my thoughts they may not start,",A20689:A20689_song_001:-
+cand-A10147_069,TCP A10147 (1578),unsigned,,328,0.52,0.49,pool,0,0,0,0,0,,"BEcause my hart is not mine owne, but resteth now with thée,",A10147:A10147_069:-
+cand-A10147_070,TCP A10147 (1578),unsigned,,248,0.52,0.69,Shakespeare,0,0,0,0,0,,"LEaue vading plumes, no more vaunt, gallant youth,",A10147:A10147_070:-
+cand-A11254_058,TCP A11254 (1593),unsigned,,160,0.52,0.7,Gascoigne,0,0,0,0,0,pool,"CAlling to minde mine eie long went about,",A11254:A11254_058:-
+cand-A11254_078,TCP A11254 (1593),unsigned,,221,0.52,0.55,pool,0,0,0,0,0,pool,"NOw what is Loue, I praie thee tell,",A11254:A11254_078:-
+cand-A16273_091,TCP A16273 (1600),unsigned,,133,0.52,0.81,Shakespeare,0,0,0,0,0,pool,"SWell Ceres now, for other Gods are shrinking,",A16273:A16273_091:-
+cand-A16731_007,TCP A16731 (1591),unsigned,,167,0.52,0.45,Daniel,0,0,0,0,0,,"GO Muse vnto the Bower, whereas my mistres dwels,",A16731:A16731_007:-
+cand-A16731_032,TCP A16731 (1591),unsigned,,298,0.52,0.53,Turberville,0,0,0,0,0,,"LOue & my Mistres were at strife who had the greater power on me,",A16731:A16731_032:-
+cand-A19943_096,TCP A19943 (1602),initials,A. W. (section),100,0.52,0.56,Vaux,0,0,0,0,0,pool,"TIme nor place did I want, what held me tongtide?",A19943:A19943_096:- ; A19945:A19945_226:-
+cand-A19945_243,TCP A19945 (1611),initials,A. W. (section),293,0.52,0.58,pool,0,0,0,0,0,,"IF my decay be your encrease,",A19945:A19945_243:-
+cand-A11254_026,TCP A11254 (1593),unsigned,,119,0.51,0.28,Gascoigne,0,0,0,0,0,pool,"The Pawne before the king, is peace,",A11254:A11254_026:-
+cand-A16729_007,TCP A16729 (1597),unsigned,,204,0.51,0.73,Vaux,0,0,0,0,0,,"IF right were rackt and ouer-runne,",A16729:A16729_007:-
+cand-A16731_013,TCP A16731 (1591),unsigned,,287,0.51,0.75,Sidney,0,0,0,0,0,,"WHat ailes mine eies, or are my wits distraught,",A16731:A16731_013:- ; A16729:A16729_038:-
+cand-A19943_144,TCP A19943 (1602),initials,R. G.,153,0.51,0.37,Turberville,0,0,0,0,0,pool,"CVpid abroad, was lated in the night,",A19943:A19943_144:R. G. ; A19945:A19945_273:-
+cand-A19945_326,TCP A19945 (1611),unsigned,,213,0.51,0.57,Shakespeare,0,0,0,0,0,,"Though late my heart, yet turne at last,",A19945:A19945_326:-
+cand-A10147_046,TCP A10147 (1578),unsigned,,396,0.5,0.52,pool,0,0,0,0,0,,"DEare hart as earst I was, so will I stil remayne,",A10147:A10147_046:-
+cand-A10147_079,TCP A10147 (1578),initials,T.P.,473,0.5,0.91,Vaux,0,0,0,0,0,,"BEhold mée here whose youth, to withered yeres,",A10147:A10147_079:T.P.
+cand-A11254_004,TCP A11254 (1593),unsigned,,427,0.5,0.4,Vaux,0,0,0,0,0,pool,"SIlence augmenteth griefe, writing encreaſeth rage,",A11254:A11254_004:-
+cand-A19943_181,TCP A19943 (1602),unsigned,,126,0.5,0.52,Googe,0,0,0,0,0,pool,"ABſence, heare thou my Proteſtation,",A19943:A19943_181:-
+cand-A10147_086,TCP A10147 (1578),initials,T. P.,149,0.49,0.2,Lodge,0,0,0,0,0,,"TRy, ere thou trust, vnto a fawning fréend,",A10147:A10147_086:T. P.
+cand-A16273_101,TCP A16273 (1600),initials,E. B.,251,0.49,0.71,Edwards,0,0,0,0,0,pool,"SWeete Musique, sweeter farre",A16273:A16273_101:E. B.
+cand-A16273_116,TCP A16273 (1600),unsigned,,114,0.49,0.25,Googe,0,0,0,0,0,pool,"AS I beheld, I saw a Heardman wilde,",A16273:A16273_116:-
+cand-A16273_124,TCP A16273 (1600),unsigned,,160,0.49,0.32,pool,0,0,0,0,0,pool,"COme away, come sweet Loue,",A16273:A16273_124:-
+cand-A16729_020,TCP A16729 (1597),unsigned,,127,0.49,0.17,Greville,0,0,0,0,0,,"A Trembling hand, but not a traitors hear•,",A16729:A16729_020:-
+cand-A19943_090,TCP A19943 (1602),initials,A. W. (section),126,0.49,0.73,pool,0,0,0,0,0,pool,"SWeete Loue, mine only treaſure",A19943:A19943_090:-
+cand-A19943_115,TCP A19943 (1602),initials,A. W. (section),285,0.49,0.4,Gascoigne,0,0,0,0,0,pool,"CVpid at length I ſpie thy crafty wile,",A19943:A19943_115:- ; A19945:A19945_245:-
+cand-A19943_117,TCP A19943 (1602),initials,A. W. (section),207,0.49,0.48,pool,0,0,0,0,0,pool,"FAyre is thy face, and that thou knoweſt too well,",A19943:A19943_117:-
+cand-A19943_150,TCP A19943 (1602),initials,A. W. (section),101,0.49,0.64,Gascoigne,0,0,0,0,0,pool,"WHat can I now ſuſpect? or, what can I feare any longer?",A19943:A19943_150:- ; A19945:A19945_279:-
+cand-A20693_song_010,TCP A20693 (1603),unsigned,,212,0.49,0.75,Drayton,0,0,0,0,1,,"Then his teares bred in thoughts of salt brine,",A20693:A20693_song_010:-
+cand-A10147_029,TCP A10147 (1578),unsigned,,160,0.48,0.25,Watson,0,0,0,0,0,,SInce that thou diddest mee loue,A10147:A10147_029:-
+cand-A16273_094,TCP A16273 (1600),unsigned,,121,0.48,0.61,pool,0,0,0,0,0,pool,"MY hart and tongue were twinnes, at once conceaued,",A16273:A16273_094:-
+cand-A16729_003,TCP A16729 (1597),unsigned,,272,0.48,0.68,Lodge,0,0,0,0,0,,"AS late I lay within an Arbor sweete,",A16729:A16729_003:-
+cand-A19943_134,TCP A19943 (1602),initials,A. W. (section),194,0.48,0.16,Googe,0,0,0,0,0,pool,"NAy, nay, thou ſtriu'ſt in vaine, my Hart,",A19943:A19943_134:-
+cand-A19945_221,TCP A19945 (1611),initials,A. W. (section),126,0.48,0.6,pool,0,0,0,0,0,,"SVVeet Loue, mine onely treasure,",A19945:A19945_221:-
+cand-A20695_song_010,TCP A20695 (1612),unsigned,,103,0.48,0.78,Daniel,0,0,0,0,1,,"2 Sorrow to see my sorrowes cause augmented, and yet lesse sorrowfull were my sorrowes more:",A20695:A20695_song_010:-
+cand-A20696_song_005,TCP A20696 (1610),unsigned,,142,0.48,0.31,Sidney,0,0,0,0,1,Sidney,"O if I my selfe finde not,",A20696:A20696_song_005:- ; A12226:A12226_160:-
+cand-A20696_song_007,TCP A20696 (1610),unsigned,,398,0.48,0.54,Sidney,0,0,0,0,1,,Astrophell with Stella sweet,A20696:A20696_song_007:-
+cand-A20696_song_012,TCP A20696 (1610),unsigned,,165,0.48,0.37,Lodge,0,0,0,0,1,,"I'ay quit té la beauté dont il a pris naissance,",A20696:A20696_song_012:-
+cand-A10147_024,TCP A10147 (1578),unsigned,,198,0.47,0.45,Sidney,0,0,0,0,0,,"NOt light of loue lady,",A10147:A10147_024:-
+cand-A10147_047,TCP A10147 (1578),unsigned,,655,0.47,0.76,Daniel,0,0,0,0,0,,"IF Chawcer yet did lyue, whose English tongue did passe,",A10147:A10147_047:-
+cand-A10831_011,TCP A10831 (1584),unsigned,,686,0.47,0.43,pool,0,0,0,0,0,,"ALas my loue, ye do me wrong,",A10831:A10831_011:-
+cand-A16273_004,TCP A16273 (1600),initials,E. B.,738,0.47,0.55,Spenser,0,0,0,0,0,pool,"YOu Sheepheards which on hillocks sit,",A16273:A16273_004:E. B.
+cand-A16273_126,TCP A16273 (1600),unsigned,,153,0.47,0.47,pool,0,0,0,0,0,pool,"MY thoughts are wingde with hopes, my hopes with loue,",A16273:A16273_126:-
+cand-A16729_027,TCP A16729 (1597),unsigned,,425,0.47,0.56,pool,0,0,0,0,0,,"THy golden hayre, thy forehead faire,",A16729:A16729_027:-
+cand-A16729_031,TCP A16729 (1597),unsigned,,158,0.47,0.47,pool,0,0,0,0,0,,"SWeet is the life▪ that is the sweet of loue,",A16729:A16729_031:-
+cand-A16731_005,TCP A16731 (1591),unsigned,,217,0.47,0.74,Daniel,0,0,0,0,0,,"GOod Muse rocke me asseepe with some sweet harmonie,",A16731:A16731_005:-
+cand-A19943_113,TCP A19943 (1602),initials,A. W. (section),294,0.47,0.63,pool,0,0,0,0,0,pool,"IE my decay be your encreaſe,",A19943:A19943_113:-
+cand-A19943_136,TCP A19943 (1602),initials,A. W. (section),149,0.47,0.26,Greville,0,0,0,0,0,pool,"NOw haue I learn'd with much a doo at laſt,",A19943:A19943_136:- ; A19945:A19945_266:-
+cand-A21161_093,TCP A21161 (1576),initials,R. L.,369,0.47,0.66,Vaux,0,0,1,1,0,,"ENforſt by loue and feare, to pleaſe and not offende,",A21161:A21161_093:R. L. ; A21162:A21162_091:R. L. ; A21166:A21166_092:R. L.
+cand-A20692_song_010,TCP A20692 (1600),unsigned,,175,0.47,0.44,Sidney,0,0,0,0,1,,"Experience which repentance onely brings,",A20692:A20692_song_010:-
+cand-A10147_064,TCP A10147 (1578),unsigned,,371,0.46,0.69,Edwards,0,0,0,0,0,,"BEholde these high and mighty men,",A10147:A10147_064:-
+cand-A10147_080,TCP A10147 (1578),unsigned,,204,0.46,0.57,pool,0,0,0,0,0,,"AY mee, ay mee, I sighe to see, the Sythe a fielde,",A10147:A10147_080:-
+cand-A16273_125,TCP A16273 (1600),unsigned,,200,0.46,0.36,Greville,0,0,0,0,0,pool,"AWay with these selfe-louing-Lads,",A16273:A16273_125:-
+cand-A16731_012,TCP A16731 (1591),unsigned,,105,0.46,0.66,Vaux,0,0,0,0,0,,"POets come all, and each one take a penne,",A16731:A16731_012:-
+cand-A19943_119,TCP A19943 (1602),initials,A. W. (section),256,0.46,0.77,Spenser,0,0,0,0,0,pool,"ALL is not Gold that ſhineth bright in ſhow,",A19943:A19943_119:- ; A19945:A19945_249:-
+cand-A19943_156,TCP A19943 (1602),pseudonym,ANOMOS,115,0.46,0.56,Turberville,0,0,0,0,0,pool,"HAtred eternall, furious reuenging,",A19943:A19943_156:ANOMOS ; A19945:A19945_285:-
+cand-A19943_174,TCP A19943 (1602),initials,H. W.,150,0.46,0.19,Drayton,0,0,0,0,0,pool,"O Faithles World, and thy moſt faithles part,",A19943:A19943_174:H. W.
+cand-A19945_319,TCP A19945 (1611),initials,H. C.,118,0.46,0.71,Sidney,0,0,0,0,0,,"YE Sister-Muses, do not you repine,",A19945:A19945_319:H. C.
+cand-A21166_075,TCP A21166 (1585),initials,E.S.,198,0.46,0.5,Sidney,0,0,0,1,0,,"My paynes alas, who can expresse,",A21166:A21166_075:E.S.
+cand-A16273_121,TCP A16273 (1600),unsigned,,200,0.45,0.59,pool,0,0,0,0,0,pool,"WHile that the Sunne with his beames hot,",A16273:A16273_121:-
+cand-A16729_034,TCP A16729 (1597),unsigned,,246,0.45,0.53,Sidney,0,0,0,0,0,,"GOe paper all be blurd▪ be blurd,",A16729:A16729_034:-
+cand-A19943_109,TCP A19943 (1602),initials,A. W. (section),167,0.45,0.56,Edwards,0,0,0,0,0,pool,"THe night ſay all, was made for reſt,",A19943:A19943_109:-
+cand-A19945_239,TCP A19945 (1611),initials,A. W. (section),167,0.45,0.5,Edwards,0,0,0,0,0,,"THe night say all, was made to rest,",A19945:A19945_239:-
+cand-A21161_028,TCP A21161 (1576),initials,F. G.,405,0.45,0.67,Gascoigne,0,0,1,1,0,,"IN youth when I at large did leade, my life in luſtie libertie,",A21161:A21161_028:F. G. ; A21162:A21162_032:F. G. ; A21166:A21166_032:F.G.
+cand-A21161_050,TCP A21161 (1576),initials,E. S.,203,0.45,0.65,Edwards,0,0,1,1,0,,"WHy ſhould I lenger long to liue,",A21161:A21161_050:E. S. ; A21162:A21162_052:E. S.
+cand-A10147_002,TCP A10147 (1578),initials,O. R.,346,0.44,0.27,Turberville,0,0,0,0,0,,"THe busie Bees whose paynes doo neuer misse,",A10147:A10147_002:O. R.
+cand-A10147_062,TCP A10147 (1578),unsigned,,119,0.44,0.52,Vaux,0,0,0,0,0,,"THough that my yeares, full far doo stande aloof•,",A10147:A10147_062:-
+cand-A10147_068,TCP A10147 (1578),unsigned,,338,0.44,0.56,Vaux,0,0,0,0,0,,"TO thée I write whose life and death, thy faith may saue or spil:",A10147:A10147_068:-
+cand-A11254_061,TCP A11254 (1593),unsigned,,120,0.44,0.67,Sidney,0,0,0,0,0,pool,WHo plucks thee down frō hie deſire poor hart?,A11254:A11254_061:-
+cand-A11254_068,TCP A11254 (1593),unsigned,,251,0.44,0.79,Watson,0,0,0,0,0,pool,"BY wracke late driuen on ſhoare, from Cupids Crare,",A11254:A11254_068:-
+cand-A19943_091,TCP A19943 (1602),initials,A. W. (section),152,0.44,0.55,Drayton,0,0,0,0,0,pool,"FAine would I learne of thee thou murth'ring Eie,",A19943:A19943_091:- ; A19945:A19945_222:-
+cand-A19943_188,TCP A19943 (1602),initials,I. S.,109,0.44,0.76,pool,0,0,0,0,0,pool,"THe Poets fayne that when the world beganne,",A19943:A19943_188:I. S.
+cand-A19945_251,TCP A19945 (1611),initials,A. W. (section),163,0.44,0.4,Spenser,0,0,0,0,0,,"IN happy time the wished faire is come,",A19945:A19945_251:-
+cand-A19945_338,TCP A19945 (1611),unsigned,,142,0.44,0.58,Lodge,0,0,0,0,0,,"BVt Ioue omnipotent, all things by his word who created,",A19945:A19945_338:-
+cand-A21166_100,TCP A21166 (1585),unsigned,,287,0.44,0.73,Vaux,0,0,0,1,0,,"IN may by kinde Dame Nature wills, all earthly wights to sing,",A21166:A21166_100:-
+cand-A11254_053,TCP A11254 (1593),unsigned,,120,0.43,0.61,Sidney,0,0,0,0,0,pool,"THoſe eies which ſet my fancie on a fire,",A11254:A11254_053:-
+cand-A11254_057,TCP A11254 (1593),unsigned,,157,0.43,0.59,Daniel,0,0,0,0,0,pool,"SOught by the world, and hath the world diſdain'd,",A11254:A11254_057:-
+cand-A11254_079,TCP A11254 (1593),unsigned,,313,0.43,0.69,pool,0,0,0,0,0,pool,"A Seeing friend, yet enimie to reſt,",A11254:A11254_079:-
+cand-A16729_029,TCP A16729 (1597),unsigned,,503,0.43,0.33,Googe,0,0,0,0,0,,"WEare happie I as others are,",A16729:A16729_029:-
+cand-A16731_023,TCP A16731 (1591),unsigned,,265,0.43,0.91,Vaux,0,0,0,0,0,,"VVHo can delight in such a wofull sound,",A16731:A16731_023:-
+cand-A19943_121,TCP A19943 (1602),initials,A. W. (section),162,0.43,0.51,Spenser,0,0,0,0,0,pool,"IN happy time the wiſhed Fayre is come,",A19943:A19943_121:-
+cand-A19943_189,TCP A19943 (1602),pseudonym,Ignoto.,174,0.43,0.46,pool,0,0,0,0,0,pool,"ARe women faire? I wondrous faire to ſee to,",A19943:A19943_189:Ignoto. ; A19945:A19945_316:Ignoto.
+cand-A19945_264,TCP A19945 (1611),initials,A. W. (section),192,0.43,0.23,Googe,0,0,0,0,0,,"NAy, nay, thou striu'st •…n vaine, my heart,",A19945:A19945_264:-
+cand-A19945_337,TCP A19945 (1611),unsigned,,285,0.43,0.47,Churchyard,0,0,0,0,0,,"THe poore mā belou'd, for vertue approu'd, right blessed is he,",A19945:A19945_337:-
+cand-A10147_012,TCP A10147 (1578),unsigned,,189,0.42,0.43,Vaux,0,0,0,0,0,,THough Fortune cannot fauor,A10147:A10147_012:-
+cand-A10147_063,TCP A10147 (1578),unsigned,,222,0.42,0.66,Vaux,0,0,0,0,0,,"TO séeme for to reuenge, eche wrong in hastie wise,",A10147:A10147_063:-
+cand-A11254_081,TCP A11254 (1593),unsigned,,144,0.42,0.48,Spenser,0,0,0,0,0,pool,"VIrginitie reſembleth right the Roſe,",A11254:A11254_081:-
+cand-A16273_110,TCP A16273 (1600),pseudonym,Ignoto.,221,0.42,0.71,Daniel,0,0,0,0,0,pool,SWeete Violets (Loues Paradise) that spread,A16273:A16273_110:Ignoto.
+cand-A16729_037,TCP A16729 (1597),unsigned,,103,0.42,0.78,Vaux,0,0,0,0,0,,"POets come all, and teach one take a penne,",A16729:A16729_037:-
+cand-A19943_014,TCP A19943 (1602),pseudonym,Ignoto.,746,0.42,0.26,pool,0,0,0,0,0,pool,"COme gentle Heard-man, ſit by mee,",A19943:A19943_014:Ignoto. ; A19945:A19945_075:-
+cand-A19945_204,TCP A19945 (1611),initials,A. W. (section),116,0.42,0.57,Edwards,0,0,0,0,0,,"TIme wasteth yeares, and months, and daies, & houres",A19945:A19945_204:-
+cand-A19945_225,TCP A19945 (1611),initials,A. W. (section),207,0.42,0.28,Greville,0,0,0,0,0,,"MY heart was found within my Ladies brest,",A19945:A19945_225:-
+cand-A20689_song_013,TCP A20689 (1597),unsigned,,100,0.42,0.47,pool,0,0,0,0,1,,"But ô the fury of my restles feare,",A20689:A20689_song_013:-
+cand-A10831_014,TCP A10831 (1584),unsigned,,247,0.41,0.66,Greville,0,0,0,0,0,,"WHen as the Hunter •…oeth 〈◊〉, with 〈◊〉 in brace.",A10831:A10831_014:-
+cand-A10831_016,TCP A10831 (1584),unsigned,,289,0.41,0.39,Spenser,0,0,0,0,0,,"WHē as I view your comly grace, Ca. &c",A10831:A10831_016:-
+cand-A11254_003,TCP A11254 (1593),unsigned,,506,0.41,0.65,Lodge,0,0,0,0,0,pool,"TO praiſe thy life, or waile thy woorthie death,",A11254:A11254_003:-
+cand-A11254_016,TCP A11254 (1593),unsigned,,294,0.41,0.57,Googe,0,0,0,0,0,pool,"In ſorrowes ſeede is ſecret paine,",A11254:A11254_016:- ; A11254:A11254_020:-
+cand-A16731_055,TCP A16731 (1591),unsigned,,258,0.41,0.52,Greville,0,0,0,0,0,,"T•…e Aire with sweet my sences do delight,",A16731:A16731_055:-
+cand-A19943_155,TCP A19943 (1602),initials,A. W. (section),101,0.41,0.36,Shakespeare,0,0,0,0,0,pool,"•Yme, poore Soule, whom bound in ſinful chains",A19943:A19943_155:-
+cand-A19943_184,TCP A19943 (1602),unsigned,,109,0.41,0.3,Spenser,0,0,0,0,0,pool,"WHen a weake Child is ſicke, and out of quiet,",A19943:A19943_184:- ; A19945:A19945_311:-
+cand-A19945_145,TCP A19945 (1611),unsigned,,166,0.41,0.93,Greville,0,0,0,0,0,,"But yet of all the woes that do torment me,",A19945:A19945_145:-
+cand-A19945_254,TCP A19945 (1611),initials,A. W. (section),145,0.41,0.63,Vaux,0,0,0,0,0,,"IF Loue be life, I long to die,",A19945:A19945_254:-
+cand-A19945_282,TCP A19945 (1611),initials,A. W. (section),148,0.41,0.4,Shakespeare,0,0,0,0,0,,"ETernall Time, that wasteth without wast,",A19945:A19945_282:-
+cand-A21161_049,TCP A21161 (1576),initials,M.B.,110,0.41,0.62,Turberville,0,0,1,1,0,,"I Would to God I were Acteon, that Diana did diſguiſe,",A21161:A21161_049:M.B.
+cand-A20689_song_003,TCP A20689 (1597),unsigned,,100,0.41,0.44,pool,0,0,0,0,1,,"And you my thoughts that some mistrust do carry,",A20689:A20689_song_003:-
+cand-A20692_song_018,TCP A20692 (1600),unsigned,,104,0.41,0.46,Daniel,0,0,0,0,1,,"1 Fortune sweares, weakest harts",A20692:A20692_song_018:-
+cand-A10147_038,TCP A10147 (1578),unsigned,,449,0.4,0.36,Turberville,0,0,0,0,0,,O Wretched wight whom hensfoorth may I trust,A10147:A10147_038:-
+cand-A11254_008,TCP A11254 (1593),unsigned,,464,0.4,0.32,Churchyard,0,0,0,0,0,pool,"IN Orchard grounds, where ſtore of fruit trees grew,",A11254:A11254_008:-
+cand-A16729_035,TCP A16729 (1597),unsigned,,318,0.4,0.64,Daniel,0,0,0,0,0,,A Liuelie face and piercing beaut•y bright▪,A16729:A16729_035:-
+cand-A19943_112,TCP A19943 (1602),initials,A. W. (section),201,0.4,0.34,Spenser,0,0,0,0,0,pool,"THe frozen Snake oppreſt with heaped ſnowe,",A19943:A19943_112:- ; A19945:A19945_242:-
+cand-A19943_143,TCP A19943 (1602),initials,T. S.,106,0.4,0.78,Edwards,0,0,0,0,0,pool,"NAture in her worke doth giue,",A19943:A19943_143:T. S. ; A19945:A19945_272:T. S.
+cand-A19945_076,TCP A19945 (1611),unsigned,,559,0.4,0.13,pool,0,0,0,0,0,,"ALas poore Pastor, I finde,",A19945:A19945_076:-
+cand-A10147_040,TCP A10147 (1578),unsigned,,120,0.39,0.62,Watson,0,0,0,0,0,,"NOt shée for whom prowde Troy did fall and burne,",A10147:A10147_040:-
+cand-A16273_072,TCP A16273 (1600),initials,H. C.,121,0.39,0.52,pool,0,0,0,0,0,pool,"DIaphenia like the Daffadown-dillie,",A16273:A16273_072:H. C.
+cand-A16729_012,TCP A16729 (1597),unsigned,,191,0.39,0.44,Sidney,0,0,0,0,0,,TH• fir• to see my wrongs for anger bur•eth▪,A16729:A16729_012:-
+cand-A16731_011,TCP A16731 (1591),unsigned,,116,0.39,0.35,Lodge,0,0,0,0,0,,"TO trie whose art and strength did most excell,",A16731:A16731_011:-
+cand-A16731_036,TCP A16731 (1591),unsigned,,1157,0.39,0.39,Sidney,0,0,0,0,0,,"WIthin the thicke of most vnquiet thoughts,",A16731:A16731_036:-
+cand-A21166_052,TCP A21166 (1585),initials,E. S.,204,0.39,0.58,Googe,0,0,0,1,0,,"WHy should I linger long to liue,",A21166:A21166_052:E. S.
+cand-A10147_045,TCP A10147 (1578),unsigned,,654,0.38,0.33,Vaux,0,0,0,0,0,,"THe slaue of seruile sort, that borne is bond by kinde,",A10147:A10147_045:-
+cand-A10147_076,TCP A10147 (1578),unsigned,,152,0.38,0.44,Lodge,0,0,0,0,0,,"WHo goes to gaze of euery gallant girle,",A10147:A10147_076:-
+cand-A10147_087,TCP A10147 (1578),initials,T.P.,145,0.38,0.59,Greville,0,0,0,0,0,,"THrough beauties sugered baites,",A10147:A10147_087:T.P.
+cand-A11254_073,TCP A11254 (1593),unsigned,,101,0.38,0.28,Drayton,0,0,0,0,0,pool,"THe firmament, with golden ſtars adorned,",A11254:A11254_073:-
+cand-A11254_075,TCP A11254 (1593),unsigned,,482,0.38,0.7,pool,0,0,0,0,0,pool,"THinking vpon the name, by Loue engraued,",A11254:A11254_075:-
+cand-A16731_037,TCP A16731 (1591),unsigned,,921,0.38,0.13,Lodge,0,0,0,0,0,,BUt sorrow thus to lose the sight of loue▪,A16731:A16731_037:-
+cand-A19943_135,TCP A19943 (1602),initials,A. W. (section),105,0.38,0.6,Googe,0,0,0,0,0,pool,WIſdome warns me to ſhun that once I ſought for,A19943:A19943_135:- ; A19945:A19945_265:-
+cand-A19943_180,TCP A19943 (1602),unsigned,,121,0.38,0.14,pool,0,0,0,0,0,pool,"ONly (ſweet loue) afforde mee but thy hart,",A19943:A19943_180:-
+cand-A19945_206,TCP A19945 (1611),initials,A. W. (section),147,0.38,0.31,Drayton,0,0,0,0,0,,"LOue is a sowre delight, a sugred griefe,",A19945:A19945_206:-
+cand-A20695_song_003,TCP A20695 (1612),unsigned,,103,0.38,0.84,pool,0,0,0,0,1,,"He that receiueth all, can haue no more then seeing.",A20695:A20695_song_003:-
+cand-A10147_001,TCP A10147 (1578),initials,A. M.,120,0.37,0.6,Vaux,0,0,0,0,0,,"SEE Gallaunts, see, this Gallery of delightes,",A10147:A10147_001:A. M.
+cand-A19943_131,TCP A19943 (1602),initials,A. W. (section),101,0.37,0.36,Vaux,0,0,0,0,0,pool,"IF meanes be none to end my reſtleſſe eare,",A19943:A19943_131:- ; A19945:A19945_261:-
+cand-A21161_004,TCP A21161 (1576),initials,E. S.,154,0.37,0.54,Lodge,0,0,1,1,0,,"SWeete were the ioyes, that both might like and laſt,",A21161:A21161_004:E. S. ; A21162:A21162_014:W. R.
+cand-A21161_042,TCP A21161 (1576),unsigned,,879,0.37,0.56,Watson,0,0,0,1,0,,"IF Fortune may enforce, the carefull hart to cry,",A21161:A21161_042:- ; A21162:A21162_045:- ; A21166:A21166_045:-
+cand-A21166_082,TCP A21166 (1585),unsigned,,287,0.37,0.79,Vaux,0,0,0,1,0,,"WHo seekes the way to winne renowne,",A21166:A21166_082:-
+cand-A20695_song_008,TCP A20695 (1612),unsigned,,149,0.37,0.31,Shakespeare,0,0,0,0,1,,"2 When thoughts are still vnseene and words disguised; vowes are not sacred held, nor promise debt:",A20695:A20695_song_008:-
+cand-A11254_052,TCP A11254 (1593),unsigned,,142,0.36,0.55,Churchyard,0,0,0,0,0,pool,"THe brainſicke race that wanton youth enſues,",A11254:A11254_052:-
+cand-A11254_082,TCP A11254 (1593),unsigned,,238,0.36,0.41,pool,0,0,0,0,0,pool,"ONight, O ielious night, repugnant to my pleaſures,",A11254:A11254_082:-
+cand-A16731_050,TCP A16731 (1591),unsigned,,219,0.36,0.4,Churchyard,0,0,0,0,0,,"A Sillie Shepheard lately sate,",A16731:A16731_050:-
+cand-A19943_162,TCP A19943 (1602),unsigned,,115,0.36,0.52,pool,0,0,0,0,0,pool,"MY Loue is ſayl'd, againſt diſlike to fight,",A19943:A19943_162:-
+cand-A19943_164,TCP A19943 (1602),unsigned,,116,0.36,0.18,pool,0,0,0,0,0,pool,WHen time nor place would let me often view,A19943:A19943_164:- ; A19945:A19945_293:-
+cand-parnassus-01,Englands Parnassus (1600); STC 378; TCP A16884,oxford,E. O.,147,0.35,0.26,Turberville,0,0,0,0,0,,"Loue is a diſcord and a ſtrange diuorce,",
+cand-A10831_029,TCP A10831 (1584),unsigned,,309,0.35,0.71,Sidney,0,0,0,0,0,,My •…yde will ye loue me yea or no?,A10831:A10831_029:-
+cand-A11254_007,TCP A11254 (1593),unsigned,,455,0.35,0.79,Churchyard,0,0,0,0,0,pool,"MY garden ground of griefe: where ſelfe wils ſeeds are ſowne,",A11254:A11254_007:-
+cand-A16273_142,TCP A16273 (1600),pseudonym,Ignoto.,166,0.35,0.5,Daniel,0,0,0,0,0,pool,"IF all the world and loue were young,",A16273:A16273_142:Ignoto.
+cand-A16729_009,TCP A16729 (1597),unsigned,,424,0.35,0.59,Gascoigne,0,0,0,0,0,,"IN fortune as I lay, my fortune was to finde",A16729:A16729_009:-
+cand-A16729_036,TCP A16729 (1597),unsigned,,117,0.35,0.43,Lodge,0,0,0,0,0,,TTo trie whose art and sttength did most excell,A16729:A16729_036:-
+cand-A19943_142,TCP A19943 (1602),initials,A. W. (section),236,0.35,0.69,Spenser,0,0,0,0,0,pool,"OF late, what time the Beare turnd round",A19943:A19943_142:-
+cand-A19943_152,TCP A19943 (1602),initials,A. W. (section),393,0.35,0.26,Lodge,0,0,0,0,0,pool,WHom can I firſt accuſe? whoſe fault account I the greateſt?,A19943:A19943_152:- ; A19945:A19945_281:-
+cand-A19945_331,TCP A19945 (1611),unsigned,,559,0.35,0.7,Lodge,0,0,0,0,0,,Diuers rare gems in thee O vnion shine:,A19945:A19945_331:-
+cand-A20689_song_021,TCP A20689 (1597),unsigned,,159,0.35,0.39,Greville,0,0,0,0,1,,"God Cupids shaft like destinie,",A20689:A20689_song_021:-
+cand-A20692_song_015,TCP A20692 (1600),unsigned,,191,0.35,0.24,pool,0,0,0,0,1,,"2 When I swore my hart hir owne,",A20692:A20692_song_015:-
+cand-A10147_003,TCP A10147 (1578),initials,O. R.,374,0.34,0.18,Churchyard,0,0,0,0,0,,"SOme women fayne that Paris was,",A10147:A10147_003:O. R.
+cand-A10147_037,TCP A10147 (1578),unsigned,,250,0.34,0.47,Edwards,0,0,0,0,0,,"YE grisly ghostes which walke below in black Cocistus Lakes,",A10147:A10147_037:-
+cand-A16731_018,TCP A16731 (1591),unsigned,,933,0.34,0.27,Googe,0,0,0,0,0,,"SOrrow come sit thee downe, and sigh and sob thy fill,",A16731:A16731_018:-
+cand-A19943_153,TCP A19943 (1602),initials,A. W. (section),158,0.34,0.33,Shakespeare,0,0,0,0,0,pool,"ETernall time, that waſteſt without waſte,",A19943:A19943_153:-
+cand-A21166_078,TCP A21166 (1585),initials,H. D.,291,0.34,0.62,Lodge,0,0,0,1,0,,"MIne owne good father thou art gone, thine eares are stopt with clay,",A21166:A21166_078:H. D.
+cand-A20689_song_016,TCP A20689 (1597),unsigned,,101,0.34,0.46,pool,0,0,0,0,1,,"Each houre amidst the deepe of hell I frie,",A20689:A20689_song_016:-
+cand-A10147_017,TCP A10147 (1578),unsigned,,174,0.33,0.32,Turberville,0,0,0,0,0,,DEeme as ye list vpon good cause,A10147:A10147_017:-
+cand-A10831_022,TCP A10831 (1584),unsigned,,280,0.33,0.53,Sidney,0,0,0,0,0,,"I Smile to sée how you deuise,",A10831:A10831_022:-
+cand-A16273_038,TCP A16273 (1600),pseudonym,Ignoto.,166,0.33,0.43,Shakespeare,0,0,0,0,0,pool,"AS it fell vpon a day,",A16273:A16273_038:Ignoto.
+cand-A16273_061,TCP A16273 (1600),initials,T. B.,206,0.33,0.18,Daniel,0,0,0,0,0,pool,"WOuld mine eyes were christall Fountaines,",A16273:A16273_061:T. B.
+cand-A16731_047,TCP A16731 (1591),unsigned,,212,0.33,0.41,Shakespeare,0,0,0,0,0,,"SWeet Phillis if a sillie Swaine,",A16731:A16731_047:-
+cand-A16731_052,TCP A16731 (1591),unsigned,,167,0.33,0.17,Googe,0,0,0,0,0,,"TIme is but short, and short the course of time.",A16731:A16731_052:-
+cand-A16731_039,TCP A16731 (1591),unsigned,,101,0.32,0.8,Watson,0,0,0,0,0,,"A Little fire doth make the faggot burne,",A16731:A16731_039:-
+cand-A10831_017,TCP A10831 (1584),unsigned,,449,0.31,0.5,Turberville,0,0,0,0,0,,"MAid, wil you marie? I pray sir tarie,",A10831:A10831_017:-
+cand-A11254_086,TCP A11254 (1593),unsigned,,841,0.31,0.31,Daniel,0,0,0,0,0,pool,"SIr painter, are thy colours redie ſet,",A11254:A11254_086:-
+cand-A16731_044,TCP A16731 (1591),unsigned,,169,0.31,0.6,pool,0,0,0,0,0,,"EYe lie awake in hope of blessed seeing,",A16731:A16731_044:-
+cand-A19943_165,TCP A19943 (1602),unsigned,,114,0.31,0.74,Drayton,0,0,0,0,0,pool,"WHen as the Sun eclipſed is, ſome ſay,",A19943:A19943_165:- ; A19945:A19945_294:-
+cand-A19945_332,TCP A19945 (1611),unsigned,,658,0.31,0.35,Greville,0,0,0,0,0,,"GReat King, since first this Ile by Ioues owne hand,",A19945:A19945_332:-
+cand-A20689_song_012,TCP A20689 (1597),unsigned,,112,0.31,0.48,pool,0,0,0,0,1,,"If I speake my words want waite,",A20689:A20689_song_012:-
+cand-A10147_089,TCP A10147 (1578),unsigned,,3514,0.3,0.51,Vaux,0,0,0,0,0,,"IN Babilon a stately seate, of high and mighty Kinges,",A10147:A10147_089:-
+cand-A10831_028,TCP A10831 (1584),unsigned,,271,0.3,0.39,Churchyard,0,0,0,0,0,,"TWentie iorneyes would I make,",A10831:A10831_028:-
+cand-A16273_023,TCP A16273 (1600),initials,I. M.,163,0.3,0.3,Drayton,0,0,0,0,0,pool,"FIelds were ouer-spread with flowers,",A16273:A16273_023:I. M.
+cand-A16273_108,TCP A16273 (1600),unsigned,,153,0.3,0.27,Greville,0,0,0,0,0,pool,"WHat pleasure haue great Princes,",A16273:A16273_108:-
+cand-A16729_030,TCP A16729 (1597),unsigned,,118,0.3,0.48,pool,0,0,0,0,0,,"IN trueth is trust, distrust not then my trueth,",A16729:A16729_030:-
+cand-A16729_043,TCP A16729 (1597),unsigned,,963,0.3,0.23,Googe,0,0,0,0,0,,"SOrrow come si• thee downe, and sigh and sob thy fill,",A16729:A16729_043:-
+cand-A19945_205,TCP A19945 (1611),initials,A. W. (section),152,0.3,0.65,Watson,0,0,0,0,0,,"IF Loue had lost his shafts, and loue downe threw",A19945:A19945_205:-
+cand-A19945_291,TCP A19945 (1611),unsigned,,115,0.3,0.33,Greville,0,0,0,0,0,,MY loue is sail'd against dislike to fight,A19945:A19945_291:-
+cand-A21161_001,TCP A21161 (1576),unsigned,,624,0.3,0.69,Watson,0,0,0,1,0,,"CVR mundus militat, ſub vana gloria, cuius proſperitas est tranſitoria;",A21161:A21161_001:- ; A21162:A21162_001:-
+cand-A21161_044,TCP A21161 (1576),unsigned,,136,0.3,0.39,Churchyard,0,0,0,1,0,,"EVen as the Rauen, the Crowe, and greedie Rite",A21161:A21161_044:-
+cand-A21161_051,TCP A21161 (1576),unsigned,,501,0.3,0.77,Churchyard,0,0,0,1,0,,"WHoſo is ſet in princly trone, and craueth rule to beare,",A21161:A21161_051:-
+cand-A21166_024,TCP A21166 (1585),unsigned,,251,0.3,0.58,Shakespeare,0,0,0,1,0,,"THe deepe turmoyled wight, that liues deuoyde of ease,",A21166:A21166_024:-
+cand-A10147_014,TCP A10147 (1578),unsigned,,249,0.29,0.36,Shakespeare,0,0,0,0,0,,BE stedfast to thine owne,A10147:A10147_014:-
+cand-A10831_001,TCP A10831 (1584),unsigned,,121,0.29,0.74,Turberville,0,0,0,0,0,,YOu that in Musicke do delight your minds for to solace:,A10831:A10831_001:-
+cand-A16273_135,TCP A16273 (1600),unsigned,,141,0.29,0.51,Lodge,0,0,0,0,0,pool,"THirsis to die desired,",A16273:A16273_135:-
+cand-A19943_093,TCP A19943 (1602),initials,A. W. (section),263,0.29,0.25,Greville,0,0,0,0,0,pool,"THe faireſt Pearles that Northerne Seas do breed,",A19943:A19943_093:- ; A19945:A19945_224:-
+cand-A19943_161,TCP A19943 (1602),unsigned,,113,0.29,0.23,Lodge,0,0,0,0,0,pool,"PAle Death himſelfe did Loue my Philomel,",A19943:A19943_161:- ; A19945:A19945_290:-
+cand-A19945_334,TCP A19945 (1611),unsigned,,105,0.29,0.4,Spenser,0,0,0,0,0,,"FAire vertues Iemme▪ set in most royall gold,",A19945:A19945_334:-
+cand-A10147_043,TCP A10147 (1578),unsigned,,114,0.28,0.74,Churchyard,0,0,0,0,0,,"ASke what loue is? it is a passion,",A10147:A10147_043:-
+cand-A10147_067,TCP A10147 (1578),unsigned,,1067,0.28,0.11,Gascoigne,0,0,0,0,0,,"IMagine when these blurred lines, thus scribled out of frame,",A10147:A10147_067:-
+cand-A10147_072,TCP A10147 (1578),initials,T. P.,299,0.28,0.6,Lodge,0,0,0,0,0,,"FRom Limbo Lake, where dismall féendes do lye,",A10147:A10147_072:T. P.
+cand-A10147_073,TCP A10147 (1578),unsigned,,304,0.28,0.57,pool,0,0,0,0,0,,"THe tedious toyle, the cares which Louers taste,",A10147:A10147_073:-
+cand-A16729_004,TCP A16729 (1597),unsigned,,108,0.28,0.22,Shakespeare,0,0,0,0,0,,"CLime not too high, for feare thou catch a fall,",A16729:A16729_004:-
+cand-A16731_031,TCP A16731 (1591),unsigned,,150,0.28,0.39,Turberville,0,0,0,0,0,,"LAugh not too much, perhaps you are deceyued,",A16731:A16731_031:-
+cand-A21162_048,TCP A21162 (1578),unsigned,,136,0.28,0.43,Churchyard,0,0,0,1,0,,"EVen as the Rauen, the Crow, and greedy Kite,",A21162:A21162_048:- ; A21166:A21166_048:-
+cand-A10147_030,TCP A10147 (1578),unsigned,,284,0.27,0.5,Churchyard,0,0,0,0,0,,"WHen that I way with wit, and eke consider now,",A10147:A10147_030:-
+cand-A10831_020,TCP A10831 (1584),unsigned,,538,0.27,0.41,Churchyard,0,0,0,0,0,,"MY fancie did I fixe, in faithful forme and frame:",A10831:A10831_020:-
+cand-A19943_137,TCP A19943 (1602),initials,A. W. (section),115,0.27,0.7,Drayton,0,0,0,0,0,pool,"SInce iuſt diſdaine began to riſe,",A19943:A19943_137:- ; A19945:A19945_267:-
+cand-A19943_151,TCP A19943 (1602),initials,A. W. (section),149,0.27,0.12,Sidney,0,0,0,0,0,pool,"WHat ſtrange aduenture? what now vnlook't for arriuall,",A19943:A19943_151:- ; A19945:A19945_280:-
+cand-A19943_159,TCP A19943 (1602),unsigned,,118,0.27,0.65,pool,0,0,0,0,0,pool,"O Why did Fame my Hart to Loue betray,",A19943:A19943_159:-
+cand-A19943_185,TCP A19943 (1602),initials,I. S.,125,0.27,0.44,pool,0,0,0,0,0,pool,"WEre I as baſe as is the lowly playne,",A19943:A19943_185:I. S. ; A19945:A19945_312:I. S.
+cand-A19945_196,TCP A19945 (1611),unsigned,,127,0.27,0.16,Greville,0,0,0,0,0,,Thinke you that beauties admirable worth,A19945:A19945_196:-
+cand-A16273_129,TCP A16273 (1600),initials,H. C.,333,0.26,0.41,Greville,0,0,0,0,0,pool,"FIe on the sleights that men deuise,",A16273:A16273_129:H. C.
+cand-A19943_158,TCP A19943 (1602),unsigned,,112,0.26,0.49,pool,0,0,0,0,0,pool,"OFt did I heare, our Eyes the paſſage were,",A19943:A19943_158:- ; A19945:A19945_287:-
+cand-A19945_207,TCP A19945 (1611),initials,A. W. (section),160,0.26,0.45,Watson,0,0,0,0,0,,"I Ioy not Peac•… where yet no warre is found,",A19945:A19945_207:-
+cand-A10831_009,TCP A10831 (1584),initials,I.P.,550,0.25,0.15,Shakespeare,0,0,0,0,0,,"THe life that erst thou ledst my friend, was pleasant to thine eies:",A10831:A10831_009:I.P.
+cand-A16731_027,TCP A16731 (1591),unsigned,,199,0.25,0.3,Vaux,0,0,0,0,0,,"LOoke not too long vpō those looks, y^• blinds the ouerlooker sore,",A16731:A16731_027:-
+cand-A19943_145,TCP A19943 (1602),pseudonym,Incerto.,105,0.25,0.62,Daniel,0,0,0,0,0,pool,"THe loweſt Trees haue tops, the Ante her gall,",A19943:A19943_145:Incerto. ; A19945:A19945_274:-
+cand-A21166_023,TCP A21166 (1585),unsigned,,369,0.25,0.52,Turberville,0,0,0,1,0,,"PErhaps you think me bolde that dare presume to teache,",A21166:A21166_023:-
+cand-A20693_song_018,TCP A20693 (1603),unsigned,,106,0.25,0.37,Edwards,0,0,0,0,1,,"Then thus I buzd, when time no sap would giue,",A20693:A20693_song_018:-
+cand-A10147_031,TCP A10147 (1578),unsigned,,136,0.24,0.93,Churchyard,0,0,0,0,0,,"EChe thing must haue a time, and tyme doth try mens troth,",A10147:A10147_031:-
+cand-A10147_078,TCP A10147 (1578),initials,T. P.,464,0.24,0.63,Edwards,0,0,0,0,0,,"WHat motion more, may mooue a man to minde",A10147:A10147_078:T. P.
+cand-A16273_145,TCP A16273 (1600),pseudonym,Ignoto.,118,0.24,0.49,pool,0,0,0,0,0,pool,"LIke Desert woods, with darkesome shades obscured,",A16273:A16273_145:Ignoto.
+cand-A16729_016,TCP A16729 (1597),unsigned,,110,0.24,0.37,Sidney,0,0,0,0,0,,"S SIlly poore swaine pul down thy simple pride,",A16729:A16729_016:-
+cand-A19943_088,TCP A19943 (1602),initials,A. W. (section),122,0.24,0.49,Sidney,0,0,0,0,0,pool,"WHat mou'd me then? ſay Loue, for thou cāſt tel;",A19943:A19943_088:-
+cand-A21161_052,TCP A21161 (1576),unsigned,,447,0.24,0.45,Turberville,0,0,0,1,0,,"EChe one deſerues great praiſe to haue, but yet not like I think,",A21161:A21161_052:-
+cand-A10831_006,TCP A10831 (1584),unsigned,,304,0.23,0.52,pool,0,0,0,0,0,,"ATtend thée, go play thée,",A10831:A10831_006:-
+cand-A19945_219,TCP A19945 (1611),initials,A. W. (section),121,0.23,0.45,Sidney,0,0,0,0,0,,"WHat mou'de me then? say Loue, for thou canst tell:",A19945:A19945_219:-
+cand-A19943_094,TCP A19943 (1602),initials,A. W. (section),206,0.22,0.23,Turberville,0,0,0,0,0,pool,"MY Hart was found within my Ladies Breſt,",A19943:A19943_094:-
+cand-A19943_147,TCP A19943 (1602),initials,A. W. (section),149,0.22,0.58,Churchyard,0,0,0,0,0,pool,"BRight ſhines the Sun, play Beggers play,",A19943:A19943_147:- ; A19945:A19945_276:-
+cand-A21162_031,TCP A21162 (1578),initials,M. S.,293,0.22,0.44,Vaux,0,0,0,1,0,,"J Read a maying rime of late delighted much my eare,",A21162:A21162_031:M. S.
+cand-A21166_031,TCP A21166 (1585),initials,M. S.,294,0.21,0.49,Turberville,0,0,0,1,0,,"I Read a Maiyng rime of late, delighted much my eare,",A21166:A21166_031:M. S.
+cand-A10147_082,TCP A10147 (1578),initials,T.P.,199,0.2,0.39,Daniel,0,0,0,0,0,,"TO darkesome caue, where crawling wormes remayn.",A10147:A10147_082:T.P.
+cand-A19943_163,TCP A19943 (1602),unsigned,,116,0.2,0.21,pool,0,0,0,0,0,pool,ONce did my Philomel reflect on mee,A19943:A19943_163:- ; A19945:A19945_292:-
+cand-A19945_288,TCP A19945 (1611),unsigned,,117,0.2,0.4,Watson,0,0,0,0,0,,"OWhy did fame my heart to loue betray,",A19945:A19945_288:-
+cand-A10147_039,TCP A10147 (1578),unsigned,,146,0.19,0.28,Turberville,0,0,0,0,0,,"FOr beauties sake though loue doth dread thy might,",A10147:A10147_039:-
+cand-A16729_013,TCP A16729 (1597),unsigned,,334,0.19,0.15,Vaux,0,0,0,0,0,,"COme little babe, come silly soule,",A16729:A16729_013:-
+cand-A19945_050,TCP A19945 (1611),unsigned,,401,0.18,0.23,Shakespeare,0,0,0,0,0,,GOe soule the bodies guest,A19945:A19945_050:-
+cand-A16273_138,TCP A16273 (1600),pseudonym,Ignoto.,737,0.17,0.39,Churchyard,0,0,0,0,0,pool,"IN Pescod time, when Hound to horne,",A16273:A16273_138:Ignoto.
+cand-A19945_144,TCP A19945 (1611),unsigned,,252,0.17,0.21,Greville,0,0,0,0,0,,"Cleare vp mine eies and drie your selues my teares,",A19945:A19945_144:-
+cand-A16273_048,TCP A16273 (1600),pseudonym,Ignoto.,338,0.16,0.64,Shakespeare,0,0,0,0,0,pool,"COridon, arise my Coridon,",A16273:A16273_048:Ignoto.
+cand-A19945_320,TCP A19945 (1611),unsigned,,112,0.13,0.08,Spenser,0,0,0,0,0,,"THe ancient readers of heauens booke,",A19945:A19945_320:-
+cand-A19943_193,TCP A19943 (1602),unsigned,,111,0.12,0.04,Spenser,0,0,0,0,0,pool,"TH'Ancient Readers or Heauens Booke,",A19943:A19943_193:-
+cand-A19943_160,TCP A19943 (1602),unsigned,,108,0.1,0.19,Shakespeare,0,0,0,0,0,pool,"SIckenes entending my Loue to betray,",A19943:A19943_160:-
+cand-A20693_song_020,TCP A20693 (1603),unsigned,,115,0.1,0.27,Greville,0,0,0,0,1,,And loue it selfe is but a ieast.,A20693:A20693_song_020:-
+cand-A19945_289,TCP A19945 (1611),unsigned,,109,0.07,0.14,Shakespeare,0,0,0,0,0,,"SIckenesse entending my loue to betray,",A19945:A19945_289:-

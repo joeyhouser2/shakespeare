@@ -1,0 +1,40 @@
+{
+  "n_scored": 467,
+  "N_h1": 454,
+  "leads": 18,
+  "expected_leads": 18.9,
+  "p_leads": 0.618,
+  "strong_leads": 2,
+  "expected_strong": 3.8,
+  "p_strong": 0.8922,
+  "decoy_overlap_scored": 13,
+  "decoy_overlap_leads": 4,
+  "self_match_exclusions": 162,
+  "leads_from_paradise": 2,
+  "leads_by_source": {
+    "TCP A10147 (1578)": 5,
+    "TCP A19943 (1602)": 3,
+    "TCP A11254 (1593)": 2,
+    "TCP A21161 (1576)": 1,
+    "TCP A19945 (1611)": 2,
+    "TCP A21166 (1585)": 1,
+    "TCP A16273 (1600)": 1,
+    "TCP A10831 (1584)": 1,
+    "TCP A20696 (1610)": 1,
+    "TCP A16731 (1591)": 1
+  },
+  "leads_by_class": {
+    "unsigned": 13,
+    "initials": 4,
+    "pseudonym": 1
+  },
+  "nearest_author_of_leads": {
+    "Edwards": 2,
+    "Oxford": 9,
+    "Vaux": 3,
+    "pool": 3,
+    "Watson": 1
+  },
+  "F1_mean": 0.525,
+  "runtime_s": 45
+}

@@ -154,6 +154,13 @@ def main():
     with open(NORM / "normalize_log.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["path"] + keys, restval=0); w.writeheader(); w.writerows(rows)
     print(f"{n} files normalized -> {NORM.relative_to(ROOT)}")
+    # candidate texts entered by hand (data/candidates/text) -> data/candidates/norm
+    cdir, cnorm = ROOT / "data/candidates/text", ROOT / "data/candidates/norm"
+    if cdir.exists():
+        cnorm.mkdir(parents=True, exist_ok=True)
+        for p in sorted(cdir.glob("*.txt")):
+            (cnorm / p.name).write_text(normalize_text(p.read_text(encoding="utf-8")), encoding="utf-8")
+        print(f"{len(list(cdir.glob('*.txt')))} candidate files normalized -> data/candidates/norm")
     link_manifest()
     for k, v in total.most_common():
         print(f"  {k:22} {v}")

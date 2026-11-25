@@ -1,19 +1,19 @@
 spelling,standard,count
 selfe,self,1648
 faire,fair,1150
-minde,mind,975
+minde,mind,977
 feare,fear,888
 teares,tears,848
-paine,pain,840
-finde,find,759
+paine,pain,842
+finde,find,760
 sweete,sweet,708
 againe,again,692
-griefe,grief,642
+griefe,grief,645
 thinke,think,638
 beare,bear,616
 downe,down,612
 poore,poor,604
-vaine,vain,600
+vaine,vain,602
 looke,look,555
 cruell,cruel,542
 heare,hear,519
@@ -22,10 +22,10 @@ sunne,sun,503
 seeke,seek,472
 eies,eyes,472
 helpe,help,464
+farre,far,453
 soone,soon,453
-farre,far,452
 beautie,beauty,447
-passe,pass,398
+passe,pass,399
 joyes,joys,390
 lookes,looks,389
 sonne,son,382
@@ -37,7 +37,7 @@ deepe,deep,355
 seeme,seem,352
 himselfe,himself,344
 kinde,kind,344
-dayes,days,339
+dayes,days,340
 keepe,keep,338
 feele,feel,325
 sighes,sighs,323
@@ -60,8 +60,8 @@ flie,fly,274
 turne,turn,272
 eares,ears,271
 fayre,fair,271
+warre,war,268
 dye,die,267
-warre,war,267
 ende,end,266
 blisse,bliss,264
 wordes,words,256
@@ -94,8 +94,8 @@ learne,learn,196
 kisse,kiss,195
 weake,weak,194
 remaine,remain,194
+yeares,years,191
 bloud,blood,191
-yeares,years,190
 heere,here,190
 soules,souls,190
 sinne,sin,190
@@ -110,7 +110,7 @@ voyce,voice,184
 scorne,scorn,184
 sorrowes,sorrows,184
 wel,well,183
-feares,fears,177
+feares,fears,178
 beares,bears,177
 deere,deer,174
 mightie,mighty,174
@@ -125,8 +125,8 @@ blacke,black,169
 starres,stars,167
 crowne,crown,166
 pittie,pity,165
+loose,lose,162
 dispaire,despair,162
-loose,lose,161
 eie,eye,161
 carefull,careful,160
 knowne,known,160
@@ -449,10 +449,10 @@ remayne,remain,61
 doubtfull,doubtful,61
 youthfull,youthful,61
 flowe,flow,61
+behinde,behind,61
 prevaile,prevail,60
 woulde,would,60
 sustaine,sustain,60
-behinde,behind,60
 necke,neck,59
 grounde,ground,59
 joyne,join,59
@@ -792,6 +792,7 @@ dignitie,dignity,34
 yeeldes,yields,34
 proverbe,proverb,34
 wilfull,wilful,34
+gaines,gains,34
 wote,wot,34
 dogge,dog,34
 restles,restless,34
@@ -810,7 +811,6 @@ perill,peril,33
 woordes,words,33
 sorrowe,sorrow,33
 hornes,horns,33
-gaines,gains,33
 playes,plays,33
 beginne,begin,33
 merrie,merry,33
@@ -1086,6 +1086,7 @@ mournfull,mournful,25
 meeke,meek,25
 stoute,stout,25
 staines,stains,25
+eates,eats,25
 vanitie,vanity,25
 woorth,worth,25
 swarme,swarm,25
@@ -1137,7 +1138,6 @@ freends,friends,24
 owle,owl,24
 rymes,rhymes,24
 packe,pack,24
-eates,eats,24
 won,wone,24
 flockes,flocks,24
 bringes,brings,24
@@ -1240,6 +1240,7 @@ dwels,dwells,22
 assaile,assail,22
 weepes,weeps,22
 harpe,harp,22
+deceiu'd,deceived,22
 mistris,mistress,22
 fals,falls,22
 oxe,ox,22
@@ -1283,7 +1284,6 @@ falshood,falsehood,21
 pleasde,pleased,21
 honie,honey,21
 agoe,ago,21
-deceiu'd,deceived,21
 dyes,dies,21
 matchlesse,matchless,21
 arm'd,armed,21
@@ -2194,6 +2194,7 @@ passyng,passing,11
 lowde,loud,11
 idlenes,idleness,11
 spryng,spring,11
+consumde,consumed,11
 unlawfull,unlawful,11
 stiles,stile,11
 foules,fowls,11
@@ -2374,7 +2375,6 @@ fruitles,fruitless,10
 ly,lie,10
 playn,plain,10
 elme,elm,10
-consumde,consumed,10
 fallyng,falling,10
 farwell,farewell,10
 virginitie,virginity,10
@@ -3150,6 +3150,7 @@ clearely,clearly,7
 conuerted,converted,7
 iniustice,injustice,7
 chrystall,crystal,7
+conceiu'd,conceived,7
 fall'n,fallen,7
 discern'd,discerned,7
 oddes,odds,7
@@ -3514,7 +3515,6 @@ neerer,nearer,6
 govern'd,governed,6
 fearelesse,fearless,6
 customes,customs,6
-conceiu'd,conceived,6
 meerely,merely,6
 fashion'd,fashioned,6
 reveal'd,revealed,6
@@ -4970,6 +4970,7 @@ soiourne,sojourn,4
 encountring,encountering,4
 mastife,mastiff,4
 attende,attend,4
+severd,severed,4
 snakie,snaky,4
 hampred,hampered,4
 feruently,fervently,4
@@ -6056,7 +6057,6 @@ retirde,retired,3
 surpast,surpassed,3
 unseemely,unseemly,3
 conquestes,conquests,3
-severd,severed,3
 fissher,fisher,3
 sulpher,sulphur,3
 swolen,swell,3

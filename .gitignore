@@ -45,3 +45,4 @@ tools/*/
 
 # MorphAdorner token tables (regenerable: src/normalize/morphadorner_layer.py)
 data/reference/text/adorned/
+data/candidates/adorned/

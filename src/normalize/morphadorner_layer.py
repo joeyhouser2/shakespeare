@@ -26,6 +26,9 @@ TOOL = ROOT / "tools/morphadorner"
 NORM = ROOT / "data/reference/text/norm"
 OUT = ROOT / "data/reference/text/norm_ma"
 ADORN = ROOT / "data/reference/text/adorned"
+# (input, output, token tables): reference texts, then hand-entered candidate texts
+LAYERS = [(NORM, OUT, ADORN),
+          (ROOT / "data/candidates/norm", ROOT / "data/candidates/norm_ma", ROOT / "data/candidates/adorned")]
 BATCH = 300
 
 # MorphAdorner modernizes grammar as well as spelling and guesses from context, which erases
@@ -145,20 +148,23 @@ def realign(text, tsv, changes, rejected, stats):
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    files = sorted(p for p in NORM.rglob("*.txt"))
     STANDARD.update(l.strip().lower() for l in (TOOL / "data/standardspellings.txt").read_text(encoding="utf-8", errors="replace").splitlines() if l.strip())
     changes, rejected, stats = Counter(), Counter(), Counter()
     with tempfile.TemporaryDirectory() as td:
-        for b in range(0, len(files), BATCH):
-            chunk = files[b:b + BATCH]
-            res = run_batch(chunk, Path(td))
-            for f, tsv in res.items():
-                rel = f.relative_to(NORM)
-                (ADORN / rel).with_suffix(".tsv").parent.mkdir(parents=True, exist_ok=True)
-                (ADORN / rel).with_suffix(".tsv").write_text(tsv, encoding="utf-8")
-                (OUT / rel).parent.mkdir(parents=True, exist_ok=True)
-                (OUT / rel).write_text(realign(f.read_text(encoding="utf-8"), tsv, changes, rejected, stats), encoding="utf-8")
-            print(f"  {min(b + BATCH, len(files))}/{len(files)} files")
+        for src, out, adorn in LAYERS:
+            if not src.exists():
+                continue
+            files = sorted(p for p in src.rglob("*.txt"))
+            for b in range(0, len(files), BATCH):
+                chunk = files[b:b + BATCH]
+                res = run_batch(chunk, Path(td))
+                for f, tsv in res.items():
+                    rel = f.relative_to(src)
+                    (adorn / rel).with_suffix(".tsv").parent.mkdir(parents=True, exist_ok=True)
+                    (adorn / rel).with_suffix(".tsv").write_text(tsv, encoding="utf-8")
+                    (out / rel).parent.mkdir(parents=True, exist_ok=True)
+                    (out / rel).write_text(realign(f.read_text(encoding="utf-8"), tsv, changes, rejected, stats), encoding="utf-8")
+                print(f"  {src.relative_to(ROOT)}: {min(b + BATCH, len(files))}/{len(files)} files")
     with open(OUT / "changes.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh); w.writerow(["spelling", "standard", "count"])
         for (a, s), c in changes.most_common():

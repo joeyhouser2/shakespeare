@@ -51,3 +51,6 @@ Neither is in May's (1980) canon. *Englands Parnassus* attributions are known to
 **Before scoring:**
 1. A PREREG amendment: remove a candidate's own text from the imposter pool when that candidate comes from a pool volume (*Phoenix Nest*, *Helicon*, 1602 *Rapsody*).
 2. The manual Folger First-Line Index and CELM checks on the two Oxford-signed *Parnassus* passages.
+
+## Scored (2026-11-24)
+See `results/stage1/STAGE1.md`. **18 leads against 18.9 expected by chance (p = 0.62); 2 strong leads against 3.8 expected.** No excess. The one scorable Oxford-signed candidate (*Parnassus*, "Loue is a discord") scores 0.35, which is not a lead. Given validation, that isn't evidence either way.
