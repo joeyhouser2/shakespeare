@@ -1,0 +1,162 @@
+{
+  "S": 2200,
+  "B": 100,
+  "runs": {
+    "A_profile_B_test": {
+      "F1": {
+        "V1_auc": 0.973,
+        "V1_median_shk": 0.5186,
+        "V1_min_ctrl_median": 0.9036,
+        "V2_acc_by_author": {
+          "Daniel": 1.0,
+          "Drayton": 1.0,
+          "Lodge": 0.8,
+          "Watson": 1.0,
+          "Googe": 1.0,
+          "Greville": 1.0,
+          "Spenser": 0.99,
+          "Sidney": 1.0,
+          "Churchyard": 1.0,
+          "Turberville": 1.0,
+          "Gascoigne": 0.99,
+          "Shakespeare": 0.94
+        },
+        "V2_macro": 0.977
+      },
+      "F2": {
+        "V1_auc": 0.969,
+        "V1_median_shk": 0.5362,
+        "V1_min_ctrl_median": 0.9129,
+        "V2_acc_by_author": {
+          "Daniel": 1.0,
+          "Drayton": 0.75,
+          "Lodge": 0.6,
+          "Watson": 1.0,
+          "Googe": 0.95,
+          "Greville": 1.0,
+          "Spenser": 0.91,
+          "Sidney": 1.0,
+          "Churchyard": 0.93,
+          "Turberville": 1.0,
+          "Gascoigne": 0.97,
+          "Shakespeare": 0.91
+        },
+        "V2_macro": 0.918
+      }
+    },
+    "B_profile_A_test": {
+      "F1": {
+        "V1_auc": 0.996,
+        "V1_median_shk": 0.5552,
+        "V1_min_ctrl_median": 0.9521,
+        "V2_acc_by_author": {
+          "Daniel": 1.0,
+          "Drayton": 1.0,
+          "Lodge": 1.0,
+          "Watson": 1.0,
+          "Googe": 1.0,
+          "Greville": 1.0,
+          "Spenser": 0.76,
+          "Sidney": 0.93,
+          "Churchyard": 0.99,
+          "Turberville": 1.0,
+          "Gascoigne": 0.86,
+          "Shakespeare": 0.93
+        },
+        "V2_macro": 0.956
+      },
+      "F2": {
+        "V1_auc": 0.983,
+        "V1_median_shk": 0.5731,
+        "V1_min_ctrl_median": 0.8923,
+        "V2_acc_by_author": {
+          "Daniel": 1.0,
+          "Drayton": 1.0,
+          "Lodge": 0.95,
+          "Watson": 1.0,
+          "Googe": 0.99,
+          "Greville": 1.0,
+          "Spenser": 0.89,
+          "Sidney": 0.94,
+          "Churchyard": 1.0,
+          "Turberville": 1.0,
+          "Gascoigne": 0.88,
+          "Shakespeare": 0.94
+        },
+        "V2_macro": 0.966
+      }
+    }
+  },
+  "pooled": {
+    "F1": {
+      "V1_auc": 0.984,
+      "V1_median_shk": 0.538,
+      "V1_ctrl_medians": {
+        "Daniel": 1.0153,
+        "Drayton": 1.072,
+        "Lodge": 1.0,
+        "Watson": 0.9759,
+        "Googe": 1.1095,
+        "Greville": 0.9797,
+        "Spenser": 1.043,
+        "Sidney": 0.919,
+        "Churchyard": 1.1865,
+        "Turberville": 1.0942,
+        "Gascoigne": 1.0861
+      },
+      "V1_pass": true,
+      "V2_acc_by_author": {
+        "Daniel": 1.0,
+        "Drayton": 1.0,
+        "Lodge": 0.9,
+        "Watson": 1.0,
+        "Googe": 1.0,
+        "Greville": 1.0,
+        "Spenser": 0.875,
+        "Sidney": 0.965,
+        "Churchyard": 0.995,
+        "Turberville": 1.0,
+        "Gascoigne": 0.925,
+        "Shakespeare": 0.935
+      },
+      "V2_macro": 0.966,
+      "V2_pass": true
+    },
+    "F2": {
+      "V1_auc": 0.976,
+      "V1_median_shk": 0.5553,
+      "V1_ctrl_medians": {
+        "Daniel": 0.9689,
+        "Drayton": 0.9632,
+        "Lodge": 1.0455,
+        "Watson": 1.1565,
+        "Googe": 1.0813,
+        "Greville": 0.9855,
+        "Spenser": 1.0569,
+        "Sidney": 0.9282,
+        "Churchyard": 1.2076,
+        "Turberville": 1.066,
+        "Gascoigne": 1.0811
+      },
+      "V1_pass": true,
+      "V2_acc_by_author": {
+        "Daniel": 1.0,
+        "Drayton": 0.875,
+        "Lodge": 0.775,
+        "Watson": 1.0,
+        "Googe": 0.97,
+        "Greville": 1.0,
+        "Spenser": 0.9,
+        "Sidney": 0.97,
+        "Churchyard": 0.965,
+        "Turberville": 1.0,
+        "Gascoigne": 0.925,
+        "Shakespeare": 0.925
+      },
+      "V2_macro": 0.942,
+      "V2_pass": true
+    }
+  },
+  "decision_features": "F1",
+  "validation_pass": true
+}

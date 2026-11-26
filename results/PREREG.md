@@ -373,3 +373,10 @@ Each split-half run uses a separate profile and sample set:
 4. Only if it passed, run `main`.
 - Code: `src/score/spelling.py`, tests `src/score/test_spelling.py`. Output: `results/stage2b_spelling/`. Existing results are never overwritten.
 - Newly reported evidence about either man (`data/evidence/register.csv`) doesn't enter this comparison unless it supplies autograph text meeting A3.3 before the freeze.
+
+**Amendment 2 results (2026-11-25/26, recorded after the runs):**
+- Validation **passed**: V1 AUC 0.984, V2 macro accuracy 0.966 (F1).
+- Main run: D(de Vere) = 1.133, against a median of the comparison medians of 1.029. Rank 868 of 1,100 control samples.
+- **H2b-pooled supported** (de Vere no closer to Shakespeare than the controls). F2 agrees.
+- Details: `results/stage2_pooled/`.
+

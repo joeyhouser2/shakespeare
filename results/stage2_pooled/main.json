@@ -1,0 +1,167 @@
+{
+  "validation_pass": true,
+  "devere_tokens": 2200,
+  "F1": {
+    "D_devere": 1.1326,
+    "comparison_medians": {
+      "Daniel": 1.0203,
+      "Drayton": 1.0774,
+      "Lodge": 0.9999,
+      "Watson": 0.9914,
+      "Googe": 1.1297,
+      "Greville": 0.9629,
+      "Spenser": 1.0287,
+      "Sidney": 0.9158,
+      "Churchyard": 1.207,
+      "Turberville": 1.0733,
+      "Gascoigne": 1.0648
+    },
+    "min_comparison_median": 0.9158,
+    "median_of_medians": 1.0287,
+    "p5_pooled": 0.8761,
+    "devere_rank_among_control_samples": 868,
+    "n_control_samples": 1100,
+    "shakespeare_sample_median": 0.3797,
+    "small_author_medians": {
+      "Vaux": 1.1139,
+      "Edwards": 1.0955
+    },
+    "D_lovers_complaint": 0.9691,
+    "early_median": 1.0988,
+    "late_median": 1.0088,
+    "jackknife": {
+      "oxf-p-01": {
+        "D": 1.1068,
+        "tokens": 2021
+      },
+      "oxf-p-02": {
+        "D": 1.0964,
+        "tokens": 2049
+      },
+      "oxf-p-03": {
+        "D": 1.1307,
+        "tokens": 1993
+      },
+      "oxf-p-04": {
+        "D": 1.1052,
+        "tokens": 2021
+      },
+      "oxf-p-05": {
+        "D": 1.1037,
+        "tokens": 2032
+      },
+      "oxf-p-07": {
+        "D": 1.1049,
+        "tokens": 2136
+      },
+      "oxf-p-08": {
+        "D": 1.1011,
+        "tokens": 2075
+      },
+      "oxf-p-09": {
+        "D": 1.0945,
+        "tokens": 1949
+      },
+      "oxf-p-10": {
+        "D": 1.1033,
+        "tokens": 2100
+      },
+      "oxf-p-11": {
+        "D": 1.1126,
+        "tokens": 2092
+      },
+      "oxf-p-14": {
+        "D": 1.1297,
+        "tokens": 2044
+      },
+      "oxf-p-16": {
+        "D": 1.1321,
+        "tokens": 2194
+      }
+    },
+    "H2a_pooled": false,
+    "H2b_pooled": true
+  },
+  "F2": {
+    "D_devere": 1.0887,
+    "comparison_medians": {
+      "Daniel": 0.9489,
+      "Drayton": 0.9704,
+      "Lodge": 1.0276,
+      "Watson": 1.1826,
+      "Googe": 1.0976,
+      "Greville": 0.9831,
+      "Spenser": 1.0762,
+      "Sidney": 0.9223,
+      "Churchyard": 1.2249,
+      "Turberville": 1.03,
+      "Gascoigne": 1.0483
+    },
+    "min_comparison_median": 0.9223,
+    "median_of_medians": 1.03,
+    "p5_pooled": 0.8412,
+    "devere_rank_among_control_samples": 711,
+    "n_control_samples": 1100,
+    "shakespeare_sample_median": 0.3864,
+    "small_author_medians": {
+      "Vaux": 1.0177,
+      "Edwards": 1.0114
+    },
+    "D_lovers_complaint": 1.0609,
+    "early_median": 1.129,
+    "late_median": 0.9575,
+    "jackknife": {
+      "oxf-p-01": {
+        "D": 1.0914,
+        "tokens": 2021
+      },
+      "oxf-p-02": {
+        "D": 1.0782,
+        "tokens": 2049
+      },
+      "oxf-p-03": {
+        "D": 1.0704,
+        "tokens": 1993
+      },
+      "oxf-p-04": {
+        "D": 1.0444,
+        "tokens": 2021
+      },
+      "oxf-p-05": {
+        "D": 1.0676,
+        "tokens": 2032
+      },
+      "oxf-p-07": {
+        "D": 1.0889,
+        "tokens": 2136
+      },
+      "oxf-p-08": {
+        "D": 1.0465,
+        "tokens": 2075
+      },
+      "oxf-p-09": {
+        "D": 1.0616,
+        "tokens": 1949
+      },
+      "oxf-p-10": {
+        "D": 1.0551,
+        "tokens": 2100
+      },
+      "oxf-p-11": {
+        "D": 1.0806,
+        "tokens": 2092
+      },
+      "oxf-p-14": {
+        "D": 1.0822,
+        "tokens": 2044
+      },
+      "oxf-p-16": {
+        "D": 1.0885,
+        "tokens": 2194
+      }
+    },
+    "H2a_pooled": false,
+    "H2b_pooled": true
+  },
+  "outcome": "H2b-pooled supported"
+}
